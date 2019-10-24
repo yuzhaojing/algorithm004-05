@@ -1,7 +1,7 @@
 /**
  * 21.合并两个有序链表
  */
-public class MergeTwoSortedLists {
+public class Leetcode_21_MergeTwoSortedLists {
 
     public static void main(String[] args) {
         ListNode a = new ListNode(1);

@@ -7,7 +7,7 @@ import java.util.Arrays;
  *    将数据复制到新的数组中去
  * 2、
  */
-public class RotateArray {
+public class Leetcode_189_RotateArray {
 
     public static void main(String[] args) {
         int[] nums = new int[]{-1};

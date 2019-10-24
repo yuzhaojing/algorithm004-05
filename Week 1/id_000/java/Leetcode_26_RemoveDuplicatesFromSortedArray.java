@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * 26. 删除排序数组中的重复项
  */
-public class RemoveDuplicatesFromSortedArray {
+public class Leetcode_26_RemoveDuplicatesFromSortedArray {
 
     public static void main(String[] args) {
         int[] nums = new int[]{0,0,1,1,1,2,2,3,3,4};

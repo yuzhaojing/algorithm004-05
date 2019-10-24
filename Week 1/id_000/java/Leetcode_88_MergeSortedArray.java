@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Stack;
 
 /**
  * 88. 合并两个有序数组
@@ -17,7 +16,7 @@ import java.util.Stack;
  * <p>
  * 输出: [1,2,2,3,5,6]
  */
-public class MergeSortedArray {
+public class Leetcode_88_MergeSortedArray {
 
     public static void main(String[] args) {
         int[] nums1 = new int[]{1, 2, 3, 0, 0, 0};
