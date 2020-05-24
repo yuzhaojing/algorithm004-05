@@ -11,20 +11,20 @@
 
 #leetcode submit region begin(Prohibit modification and deletion)
 # Definition for singly-linked list.
-class ListNode:
+class linkedlist.ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
 
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
         """
         直接比较插入
         :param l1:
         :param l2:
         :return:
         """
-        l3 = ListNode(-1)
+        l3 = linkedlist.ListNode(-1)
         pre = l3
         while l1 and l2:
             if l1.val < l2.val:
@@ -42,16 +42,16 @@ class Solution:
 #leetcode submit region end(Prohibit modification and deletion)
 
 if __name__ == '__main__':
-    n1 = ListNode(1)
-    n2 = ListNode(2)
-    n3 = ListNode(4)
+    n1 = linkedlist.ListNode(1)
+    n2 = linkedlist.ListNode(2)
+    n3 = linkedlist.ListNode(4)
 
     n1.next = n2
     n2.next = n3
 
-    m1 = ListNode(1)
-    m2 = ListNode(3)
-    m3 = ListNode(4)
+    m1 = linkedlist.ListNode(1)
+    m2 = linkedlist.ListNode(3)
+    m3 = linkedlist.ListNode(4)
 
     m1.next = m2
     m2.next = m3

@@ -1,6 +1,6 @@
 #!/anaconda3/bin/python
 
-class ListNode:
+class linkedlist.ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
@@ -8,7 +8,7 @@ class ListNode:
 class LeetCode_21_495(object):
 
     def mergeTwoLists(self, l1, l2):
-        prehead = ListNode(-1)
+        prehead = linkedlist.ListNode(-1)
 
         prev = prehead
         while l1 and l2:
@@ -25,21 +25,21 @@ class LeetCode_21_495(object):
         return prehead.next
 
 if __name__ == '__main__':
-    a = ListNode(11)
-    ab = ListNode(2)
-    ac = ListNode(3)
-    ad = ListNode(4)
-    ad = ListNode(4)
+    a = linkedlist.ListNode(11)
+    ab = linkedlist.ListNode(2)
+    ac = linkedlist.ListNode(3)
+    ad = linkedlist.ListNode(4)
+    ad = linkedlist.ListNode(4)
     a.next = ab
     ab.next = ac
     ac.next = ad
-    b = ListNode(55)
-    bb = ListNode(6)
-    bc = ListNode(7)
-    bd = ListNode(8)
-    be = ListNode(9)
-    bf = ListNode(10)
-    bg = ListNode(12)
+    b = linkedlist.ListNode(55)
+    bb = linkedlist.ListNode(6)
+    bc = linkedlist.ListNode(7)
+    bd = linkedlist.ListNode(8)
+    be = linkedlist.ListNode(9)
+    bf = linkedlist.ListNode(10)
+    bg = linkedlist.ListNode(12)
     b.next = bb
     bb.next = bc
     bc.next = bd

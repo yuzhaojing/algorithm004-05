@@ -8,8 +8,8 @@ func main() {
  * Definition for TreeNode.
  * type TreeNode struct {
  *     Val int
- *     Left *ListNode
- *     Right *ListNode
+ *     Left *linkedlist.ListNode
+ *     Right *linkedlist.ListNode
  * }
  */
  //在递归过程中，对于遍历到的结点进行一下判断：该点左子树是否含有pq中的一个、右子树是否含有pq中的一个。若是，则将此点作为结果赋值给res。

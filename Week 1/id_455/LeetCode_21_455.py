@@ -6,13 +6,13 @@
 
 # @lc code=start
 # Definition for singly-linked list.
-# class ListNode:
+# class linkedlist.ListNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
         if l1 is None:
             return l2
         if l2 is None:

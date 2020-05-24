@@ -97,9 +97,9 @@
 ```
     class Solution {
     public:
-        ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-            ListNode* resultListHead = NULL;
-            ListNode* resultListEnd = NULL;
+        linkedlist.ListNode* mergeTwoLists(linkedlist.ListNode* l1, linkedlist.ListNode* l2) {
+            linkedlist.ListNode* resultListHead = NULL;
+            linkedlist.ListNode* resultListEnd = NULL;
             
             if (l1==NULL)
                 return l2;
@@ -153,9 +153,9 @@
 ```
     class Solution {
     public:
-        ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
-            ListNode* prehead = new ListNode(-1);
-            ListNode* prev = prehead;
+        linkedlist.ListNode* mergeTwoLists(linkedlist.ListNode* l1, linkedlist.ListNode* l2) {
+            linkedlist.ListNode* prehead = new linkedlist.ListNode(-1);
+            linkedlist.ListNode* prev = prehead;
             while(l1 != NULL && l2 != NULL) {
                 if(l1->val <= l2->val) {
                     prev->next = l1;
@@ -168,7 +168,7 @@
             }
             prev->next = l1 != NULL ? l1 : l2;
             // return prehead->next;
-            ListNode* rstNode = prehead->next;
+            linkedlist.ListNode* rstNode = prehead->next;
             delete prehead;
             return rstNode;
         }

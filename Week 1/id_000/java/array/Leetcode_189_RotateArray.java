@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 
 /**
@@ -10,9 +12,9 @@ import java.util.Arrays;
 public class Leetcode_189_RotateArray {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{-1};
+        int[] nums = new int[]{1,2,3,4,5,6,7};
         int k = 2;
-        method3(nums, k);
+        method2(nums, k);
         System.out.println("nums = " + Arrays.toString(nums));
     }
 
@@ -26,17 +28,7 @@ public class Leetcode_189_RotateArray {
     }
 
     private static void method2(int[] nums, int k) {
-        for (int i = 0; i < k; i++) {
-            int a = nums[nums.length - 1];
-            for (int j = 0; i < nums.length; i++) {
-                int temp = nums[j];
-                nums[j] = a;
-                a = temp;
-            }
-        }
-    }
-
-    private static void method3(int[] nums, int k) {
+        // 防止k超过数组长度
         k %= nums.length;
         reverse(nums, 0, nums.length - 1);
         reverse(nums, 0, k - 1);

@@ -1,5 +1,5 @@
 # Definition for singly-linked list.
-# class ListNode(object):
+# class linkedlist.ListNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
@@ -7,7 +7,7 @@
 class Solution(object):
     def hasCycle(self, head):
         """
-        :type head: ListNode
+        :type head: linkedlist.ListNode
         :rtype: bool
         """
         if head is None or head.next is None:

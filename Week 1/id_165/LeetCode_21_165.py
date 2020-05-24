@@ -10,7 +10,7 @@
 
 # leetcode submit region begin(Prohibit modification and deletion)
 # Definition for singly-linked list.
-class ListNode(object):
+class linkedlist.ListNode(object):
     def __init__(self, x):
         self.val = x
         self.next = None
@@ -18,11 +18,11 @@ class ListNode(object):
 class Solution(object):
     def mergeTwoLists(self, l1, l2):
         """
-        :type l1: ListNode
-        :type l2: ListNode
-        :rtype: ListNode
+        :type l1: linkedlist.ListNode
+        :type l2: linkedlist.ListNode
+        :rtype: linkedlist.ListNode
         """
-        head = ListNode(-1)
+        head = linkedlist.ListNode(-1)
         current = head
 
         while l1 and l2:

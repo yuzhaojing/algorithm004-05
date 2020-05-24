@@ -1,11 +1,11 @@
 /**
  * Definition for singly-linked list.
- * type ListNode struct {
+ * type linkedlist.ListNode struct {
  *     Val int
- *     Next *ListNode
+ *     Next *linkedlist.ListNode
  * }
  */
-func detectCycle(head *ListNode) *ListNode {
+func detectCycle(head *linkedlist.ListNode) *linkedlist.ListNode {
     if head == nil || head.Next == nil {
         return nil
     }
@@ -25,7 +25,7 @@ func detectCycle(head *ListNode) *ListNode {
     return slow
 }
 
-func detectCycleOne(head *ListNode) *ListNode {
+func detectCycleOne(head *linkedlist.ListNode) *linkedlist.ListNode {
     if head == nil || head.Next == nil {
         return nil
     }

@@ -2,7 +2,7 @@
 
 /**
  * Definition for a singly-linked list.
- * class ListNode {
+ * class linkedlist.ListNode {
  *     public $val = 0;
  *     public $next = null;
  *     function __construct($val) { $this->val = $val; }
@@ -13,8 +13,8 @@ class Solution
     /**
      * recursion
      * 执行用时 :8 ms, 在所有 php 提交中击败了79.52%的用户
-     * @param ListNode $head
-     * @return ListNode
+     * @param linkedlist.ListNode $head
+     * @return linkedlist.ListNode
      */
     public function reverseListRecursion($head)
     {
@@ -30,8 +30,8 @@ class Solution
     /**
      * 迭代
      * 执行用时 :4 ms, 在所有 php 提交中击败了95.24%的用户
-     * @param ListNode $head
-     * @return ListNode
+     * @param linkedlist.ListNode $head
+     * @return linkedlist.ListNode
      */
     public function reverseList($head)
     {

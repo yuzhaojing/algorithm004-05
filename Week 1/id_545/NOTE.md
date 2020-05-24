@@ -125,8 +125,8 @@ class Solution:
 
 ``` python
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        preHead = ListNode(-1)
+    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
+        preHead = linkedlist.ListNode(-1)
         prev = preHead
         
         while l1 and l2:
@@ -147,7 +147,7 @@ class Solution:
 递归不太理解啊~~~
 ```python
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
         if l1 is None:
             return l2
         elif l2 is None:

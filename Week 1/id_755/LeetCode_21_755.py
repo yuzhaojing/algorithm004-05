@@ -1,15 +1,15 @@
 # time complexity: O(n)
 # space complexity: O(1)
 # Definition for singly-linked list.
-# class ListNode:
+# class linkedlist.ListNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
 
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
-        dummy_head = ListNode(-1)
+    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
+        dummy_head = linkedlist.ListNode(-1)
         curr_pointer = dummy_head
         p1 = l1
         p2 = l2

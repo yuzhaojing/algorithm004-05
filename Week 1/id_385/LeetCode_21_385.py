@@ -22,13 +22,13 @@
 
 # leetcode submit region begin(Prohibit modification and deletion)
 # Definition for singly-linked list.
-# class ListNode:
+# class linkedlist.ListNode:
 #     def __init__(self, x):
 #         self.val = x
 #         self.next = None
 
 class Solution:
-    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
         # 首先确定头节点
         ln = None
         if l1 is None:

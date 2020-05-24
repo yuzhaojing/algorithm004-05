@@ -2,17 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ee54e1-4904-4906-92ab-20c17127caaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 2/id_000/Leetcode_105_buildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/id_000/Leetcode_236_recurseTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/id_000/Leetcode_242_isAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/id_000/Leetcode_49_groupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/id_000/Leetcode_94_inorderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 2/id_000/NOTE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm004-05.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm004-05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_15_ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_33_SearchInRotatedSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_704_BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_169_MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_171_LetterCombinationsOfPhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_22_GenerateParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_50_Pow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_78_Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/dp/Leetcode_70_ClimbingStairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_141_LinkedListCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_206_ReverseLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_24_SwapNodesInPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_66_PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_66_PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/Leetcode_66_PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/Leetcode_66_PlusOne.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/META-INF/algorithm004-05.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_189_RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_189_RotateArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_1_TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_21_MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_21_MergeTwoSortedLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_26_RemoveDuplicatesFromSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_26_RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_283_MoveZeroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_283_MoveZeroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_66_PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_66_PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_88_MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_88_MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-141-005.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-141-005.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-141-005.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-141-005.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-142-005.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-142-005.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-206-005.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-206-005.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-21-005.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-21-005.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-24-005.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-24-005.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-25-005.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-25-005.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_005/LeetCode-92-005.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_005/LeetCode-92-005.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_015/021.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_015/021.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_035/LeetCode_21_35.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_035/LeetCode_21_35.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_040/LeetCode_21_040.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_040/LeetCode_21_040.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_045/LeetCode_21_045.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_045/LeetCode_21_045.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_050/LeetCode_141_050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_050/LeetCode_141_050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_050/LeetCode_206_050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_050/LeetCode_206_050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_050/LeetCode_21_050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_050/LeetCode_21_050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_050/LeetCode_24_050.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_050/LeetCode_24_050.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_055/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_055/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_055/课后作业3.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_055/课后作业3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_135/LeetCode-21-135.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_135/LeetCode-21-135.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_140/LeetCode_21_140.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_140/LeetCode_21_140.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_160/Homework_LessonThree.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_160/Homework_LessonThree.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_165/LeetCode_21_165.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_165/LeetCode_21_165.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_175/作业的前因后果.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_175/作业的前因后果.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_205/LeetCode_21_205.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_205/LeetCode_21_205.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_255/LeetCode_21_255.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_255/LeetCode_21_255.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_295/LeetCode_21_295.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_295/LeetCode_21_295.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_330/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_330/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_385/LeetCode_21_385.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_385/LeetCode_21_385.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_455/LeetCode_21_455.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_455/LeetCode_21_455.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_475/LeetCode_21_475.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_475/LeetCode_21_475.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_490/LeetCode_206_490.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_490/LeetCode_206_490.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_490/LeetCode_24_490.php" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_490/LeetCode_24_490.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_495/LeetCode_21_495.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_495/LeetCode_21_495.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_545/LeetCode_21_545.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_545/LeetCode_21_545.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_545/NOTE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_545/NOTE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_645/leetcode_21_645" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_645/leetcode_21_645" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_650/LeetCode_21_650.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_650/LeetCode_21_650.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_690/LeetCode/LeetCode.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_690/LeetCode/LeetCode.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_690/LeetCode/LeetCode/201-300/206-reverse-linked-list.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_690/LeetCode/LeetCode/201-300/206-reverse-linked-list.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_690/LeetCode/LeetCode/Class/ListNode.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_690/LeetCode/LeetCode/Class/ListNode.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_750/LeetCode_21_750-unfinished.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_750/LeetCode_21_750-unfinished.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_755/LeetCode_21_755.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_755/LeetCode_21_755.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/第一周练习题.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/第一周练习题.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 2/id_090/LeetCode_236_090.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week 2/id_090/LeetCode_236_090.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 预习周/id_495/LinkedListCycle/LinkedListCycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week 预习周/id_495/LinkedListCycle/LinkedListCycle.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,80 +80,124 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/id_000/Leetcode_236_recurseTree.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_33_SearchInRotatedSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="128">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_26_RemoveDuplicatesFromSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_704_BinarySearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="139">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_330/Leetcode_26_RemoveDuplicatesfromSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_171_LetterCombinationsOfPhoneNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="27" column="5" selection-start-line="12" selection-start-column="4" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="199">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_88_MergeSortedArray.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_22_GenerateParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="58">
+              <caret line="22" selection-start-line="22" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/id_000/Leetcode_242_isAnagram.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_50_Pow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="968">
-              <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_189_RotateArray.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_78_Subsets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="385">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_66_PlusOne.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_169_MajorityElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="497">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+            <state relative-caret-position="77">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/id_330/Leetcode_236_recurseTree.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_1_TwoSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#method1#0;class#Leetcode_1_TwoSum#0" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 2/id_000/Leetcode_49_groupAnagrams.java">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_189_RotateArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1078">
-              <caret line="52" column="48" selection-start-line="52" selection-start-column="48" selection-end-line="52" selection-end-column="48" />
+            <state relative-caret-position="770">
+              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#method1#0;class#Leetcode_189_RotateArray#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/dp/Leetcode_70_ClimbingStairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#122#123#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,20 +236,42 @@
         <option value="$PROJECT_DIR$/Week 2/id_000/Leetcode_94_inorderTraversal.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_88_MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_26_RemoveDuplicatesFromSortedArray.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/idea.vmoptions" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_66_PlusOne.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_1_TwoSum.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/Leetcode_15_ThreeSum.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_15_ThreeSum.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_26_RemoveDuplicatesFromSortedArray.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_33_SearchInRotatedSortedArray.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_66_PlusOne.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_88_MergeSortedArray.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_189_RotateArray.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_283_MoveZeroes.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_21_MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_24_SwapNodesInPairs.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_141_LinkedListCycle.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_206_ReverseLinkedList.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/dp/Leetcode_70_ClimbingStairs.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_704_BinarySearch.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_171_LetterCombinationsOfPhoneNumber.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_22_GenerateParentheses.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_22_Pow.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_50_Pow.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_78_Subsets.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_169_MajorityElement.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="695" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -181,20 +301,49 @@
               <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
               <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_330" type="462c0819:PsiDirectoryNode" />
+              <item name="id_000" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="array" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
+              <item name="id_000" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="divideAndConquer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
+              <item name="id_000" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
+              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
+              <item name="id_000" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583808061476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590237659402" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -203,7 +352,15 @@
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="divideAndConquer" />
+      <recent name="array" />
+      <recent name="dp" />
+      <recent name="linkedlist" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week 1/id_000/java/linkedlist" />
       <recent name="$PROJECT_DIR$/Week 2/id_000" />
       <recent name="$PROJECT_DIR$/Week 1" />
     </key>
@@ -220,49 +377,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Leetcode_66_PlusOne">
-    <configuration name="Leetcode_26_RemoveDuplicatesFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_26_RemoveDuplicatesFromSortedArray" />
+  <component name="RunManager" selected="Application.Leetcode_169_MajorityElement">
+    <configuration name="Leetcode_169_MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Leetcode_169_MajorityElement" />
       <module name="algorithm004-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode_26_RemoveDuplicatesfromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_26_RemoveDuplicatesfromSortedArray" />
+    <configuration name="Leetcode_171_LetterCombinationsOfPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Leetcode_171_LetterCombinationsOfPhoneNumber" />
       <module name="algorithm004-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode_49_groupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_49_groupAnagrams" />
+    <configuration name="Leetcode_22_GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Leetcode_22_GenerateParentheses" />
       <module name="algorithm004-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode_66_PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_66_PlusOne" />
+    <configuration name="Leetcode_50_Pow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Leetcode_50_Pow" />
       <module name="algorithm004-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Leetcode_88_MergeSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Leetcode_88_MergeSortedArray" />
+    <configuration name="Leetcode_78_Subsets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="divideAndConquer.Leetcode_78_Subsets" />
       <module name="algorithm004-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="divideAndConquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Leetcode_66_PlusOne" />
-        <item itemvalue="Application.Leetcode_88_MergeSortedArray" />
-        <item itemvalue="Application.Leetcode_26_RemoveDuplicatesFromSortedArray" />
-        <item itemvalue="Application.Leetcode_26_RemoveDuplicatesfromSortedArray" />
-        <item itemvalue="Application.Leetcode_49_groupAnagrams" />
+        <item itemvalue="Application.Leetcode_169_MajorityElement" />
+        <item itemvalue="Application.Leetcode_78_Subsets" />
+        <item itemvalue="Application.Leetcode_50_Pow" />
+        <item itemvalue="Application.Leetcode_22_GenerateParentheses" />
+        <item itemvalue="Application.Leetcode_171_LetterCombinationsOfPhoneNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -279,30 +466,45 @@
       <workItem from="1571044253620" duration="26709000" />
       <workItem from="1583315713408" duration="4476000" />
       <workItem from="1583820565685" duration="52000" />
+      <workItem from="1583831139691" duration="3829000" />
+      <workItem from="1583995845538" duration="191000" />
+      <workItem from="1583996173416" duration="1413000" />
+      <workItem from="1584431689267" duration="245000" />
+      <workItem from="1586262446830" duration="216000" />
+      <workItem from="1589272342016" duration="35442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40586000" />
+    <option name="totallyTimeSpent" value="81922000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25965664" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4927711" visible="true" weight="0.23032904" />
+      <window_info id="Structure" order="1" sideWeight="0.5072289" side_tool="true" weight="0.23032904" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50120485" side_tool="true" weight="0.26323318" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32891566" />
@@ -374,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_283_MoveZeroes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="448">
@@ -410,17 +605,6 @@
           <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_1_TwoSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#251#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -481,17 +665,6 @@
     <entry file="file://$PROJECT_DIR$/Week 1/id_005/LeetCode-11-005.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_21_MergeTwoSortedLists.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#1590#1591#0" expanded="true" />
-            <element signature="e#1613#1614#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/id_000/Leetcode_236_recurseTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -499,10 +672,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_26_RemoveDuplicatesFromSortedArray.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="374">
+          <caret line="17" column="50" lean-forward="true" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="759" column="47" selection-start-line="759" selection-start-column="47" selection-end-line="759" selection-end-column="47" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
+            <element signature="e#66928#66929#0" expanded="true" />
+            <element signature="e#66985#66986#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -513,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_88_MergeSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 2/id_000/Leetcode_242_isAnagram.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="968">
@@ -527,10 +706,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_189_RotateArray.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="15818">
+          <caret line="791" column="9" selection-start-line="791" selection-start-column="9" selection-end-line="791" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -547,10 +726,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/Leetcode_66_PlusOne.java">
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_15_ThreeSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="32" />
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_26_RemoveDuplicatesFromSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="method#method#0;class#Leetcode_26_RemoveDuplicatesFromSortedArray#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_66_PlusOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="method#method1#0;class#Leetcode_66_PlusOne#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_88_MergeSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="method#method2#0;class#Leetcode_88_MergeSortedArray#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_283_MoveZeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_21_MergeTwoSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="79" column="16" lean-forward="true" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding>
+            <element signature="method#method1#0;class#Leetcode_21_MergeTwoSortedLists#0" />
+            <element signature="method#method2#0;class#Leetcode_21_MergeTwoSortedLists#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_24_SwapNodesInPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_141_LinkedListCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="12" selection-start-line="12" selection-end-line="23" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/linkedlist/Leetcode_206_ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/dp/Leetcode_70_ClimbingStairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#122#123#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_189_RotateArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+          <folding>
+            <element signature="method#method1#0;class#Leetcode_189_RotateArray#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_33_SearchInRotatedSortedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_704_BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_171_LetterCombinationsOfPhoneNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_22_Pow.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_22_GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="22" selection-start-line="22" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_50_Pow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/array/Leetcode_1_TwoSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#method1#0;class#Leetcode_1_TwoSum#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_78_Subsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/divideAndConquer/Leetcode_169_MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

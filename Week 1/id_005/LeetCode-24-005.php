@@ -1,7 +1,7 @@
 <?php
 /**
  * Definition for a singly-linked list.
- * class ListNode {
+ * class linkedlist.ListNode {
  *     public $val = 0;
  *     public $next = null;
  *     function __construct($val) { $this->val = $val; }
@@ -12,8 +12,8 @@ class Solution
     /**
      * 迭代
      * 执行用时 :4 ms, 在所有 php 提交中击败了97.37%的用户
-     * @param ListNode $head
-     * @return ListNode
+     * @param linkedlist.ListNode $head
+     * @return linkedlist.ListNode
      */
     public function swapPairs($head)
     {
@@ -40,8 +40,8 @@ class Solution
     /**
      * 递归
      * 执行用时 :8 ms, 在所有 php 提交中击败了75.44%的用户
-     * @param ListNode $head
-     * @return ListNode
+     * @param linkedlist.ListNode $head
+     * @return linkedlist.ListNode
      */
     public function swapPairsRecursion($head)
     {

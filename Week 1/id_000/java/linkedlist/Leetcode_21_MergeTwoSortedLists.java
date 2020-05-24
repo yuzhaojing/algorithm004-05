@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * 21.合并两个有序链表
  */
@@ -14,7 +16,7 @@ public class Leetcode_21_MergeTwoSortedLists {
         b.next.next.next = new ListNode(5);
         b.next.next.next.next = new ListNode(6);
 
-        ListNode listNode = method2(a, b);
+        ListNode listNode = method3(a, b);
         while (listNode != null) {
             System.out.println(listNode.val);
             listNode = listNode.next;
@@ -54,6 +56,19 @@ public class Leetcode_21_MergeTwoSortedLists {
         }
         prev.next = l1 == null ? l2 : l1;
         return prehead.next;
+    }
+
+    private static ListNode method3(ListNode l1, ListNode l2) {
+        if (l1 == null) return l2;
+        if (l2 == null) return l1;
+
+        if (l1.val < l2.val) {
+            l1.next = method3(l1.next, l2);
+            return l1;
+        } else {
+            l2.next = method3(l1, l2.next);
+            return l2;
+        }
     }
 
 }

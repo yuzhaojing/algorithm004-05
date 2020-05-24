@@ -2,15 +2,15 @@ package id_035
 
 /**
  * Definition for singly-linked list.
- * type ListNode struct {
+ * type linkedlist.ListNode struct {
  *     Val int
- *     Next *ListNode
+ *     Next *linkedlist.ListNode
  * }
  */
 
-type ListNode struct {
+type linkedlist.ListNode struct {
 	Val int
-	Next *ListNode
+	Next *linkedlist.ListNode
 }
 
 /*
@@ -20,10 +20,10 @@ type ListNode struct {
 	如果两边都比较完成之后、还有多余的元素没有插入、说明未插入元素比前面的都大、直接追加到后面
 */
 
-func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists(l1 *linkedlist.ListNode, l2 *linkedlist.ListNode) *linkedlist.ListNode {
 	p1 := l1
 	p2 := l2
-	p := &ListNode{}
+	p := &linkedlist.ListNode{}
 	head := p
 	for p1 != nil && p2 != nil {
 		if p1.Val <= p2.Val {
@@ -52,7 +52,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 	终止条件:l1为空或者l2为空
 	调用单元实现功能:l1与l2进行比较、如果l1.val<l2.val、则l1作为当前子链表表头、再将l1.next.val再与l2.val进行比较
 */
-func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
+func mergeTwoLists2(l1 *linkedlist.ListNode, l2 *linkedlist.ListNode) *linkedlist.ListNode {
 	if l1 == nil {
 		return l2
 	}
@@ -73,8 +73,8 @@ func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
 	给定一个空节点作为虚拟头节点
 	在遍历的同时比较l1和l2大小、只要有一个为空、跳出循环
 */
-func mergeTwoLists3(l1 *ListNode, l2 *ListNode) *ListNode {
-	dummy := &ListNode{}
+func mergeTwoLists3(l1 *linkedlist.ListNode, l2 *linkedlist.ListNode) *linkedlist.ListNode {
+	dummy := &linkedlist.ListNode{}
 	node := dummy
 	for ;l1 != nil || l2 != nil; node = node.Next {
 		if l1 == nil {

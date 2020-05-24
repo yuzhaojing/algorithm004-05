@@ -1,7 +1,7 @@
 <?php
 /**
  * Definition for a singly-linked list.
- * class ListNode {
+ * class linkedlist.ListNode {
  *     public $val = 0;
  *     public $next = null;
  *     function __construct($val) { $this->val = $val; }
@@ -13,9 +13,9 @@ class Solution
     /**
      * 栈 代码量最少
      * 执行用时 :12 ms, 在所有 php 提交中击败了93.18%的用户
-     * @param ListNode $head
+     * @param linkedlist.ListNode $head
      * @param Integer $k
-     * @return ListNode
+     * @return linkedlist.ListNode
      */
     public function reverseKGroupStack($head, $k)
     {
@@ -42,16 +42,16 @@ class Solution
     /**
      * 看题解最优
      * 执行用时 :8 ms, 在所有 php 提交中击败了100.00%的用户
-     * @param ListNode $head
+     * @param linkedlist.ListNode $head
      * @param Integer $k
-     * @return ListNode
+     * @return linkedlist.ListNode
      */
     public function reverseKGroup($head, $k)
     {
         if ($head == null || $head->next == null) {
             return $head;
         }
-        $new_head = new ListNode(0);// 创建一个 0 节点开头的链表
+        $new_head = new linkedlist.ListNode(0);// 创建一个 0 节点开头的链表
         $new_head->next = $head;// 将该虚拟链表指向主角
         $pre = $new_head;
         $end = $pre;// 要反转的部分
@@ -78,7 +78,7 @@ class Solution
     public function reverse($start)
     {
         $cur = $start;
-        $pre = new ListNode(0);
+        $pre = new linkedlist.ListNode(0);
         while ($cur) {
             $temp = $cur->next;
             $cur->next = $pre;

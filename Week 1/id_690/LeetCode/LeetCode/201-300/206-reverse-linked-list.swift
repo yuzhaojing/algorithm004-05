@@ -28,9 +28,9 @@ import Cocoa
 
 class ReverseLinkedList: NSObject {
     
-    func reverseList(_ head: ListNode?) -> ListNode? {
+    func reverseList(_ head: linkedlist.ListNode?) -> linkedlist.ListNode? {
         // 前一个指针
-        var prev: ListNode?
+        var prev: linkedlist.ListNode?
         var current = head
         
         while current != nil {
