@@ -1,13 +1,13 @@
 # Definition for singly-linked list.
-class linkedlist.ListNode:
+class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
 
 
 class Solution:
-    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
-        prehead = linkedlist.ListNode(-1)
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        prehead = ListNode(-1)
         prev = prehead
 
         while l1 and l2:

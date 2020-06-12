@@ -6,8 +6,8 @@
 
 /**
  * 第一种解法：递归
- * @param linkedlist.ListNode $head
- * @return linkedlist.ListNode
+ * @param ListNode $head
+ * @return ListNode
  */
 function swapPairs($head) {
     if ($head == null || $head->next == null) {

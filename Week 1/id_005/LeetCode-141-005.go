@@ -2,12 +2,12 @@
  * 使用快慢指针
  * 执行用时 :8 ms, 在所有 golang 提交中击败了90.53%的用户
  * Definition for singly-linked list.
- * type linkedlist.ListNode struct {
+ * type ListNode struct {
  *     Val int
- *     Next *linkedlist.ListNode
+ *     Next *ListNode
  * }
  */
-func hasCycle(head *linkedlist.ListNode) bool {
+func hasCycle(head *ListNode) bool {
 	if head == nil {
 		return false
 	}
@@ -23,7 +23,7 @@ func hasCycle(head *linkedlist.ListNode) bool {
 	return false
 }
 
-func hasCycleOne(head *linkedlist.ListNode) bool {
+func hasCycleOne(head *ListNode) bool {
     if head == nil || head.Next == nil {
         return false
     }
@@ -43,12 +43,12 @@ func hasCycleOne(head *linkedlist.ListNode) bool {
  * 迭代
  * 执行用时 :8 ms, 在所有 golang 提交中击败了90.05%的用户
  * Definition for singly-linked list.
- * type linkedlist.ListNode struct {
+ * type ListNode struct {
  *     Val int
- *     Next *linkedlist.ListNode
+ *     Next *ListNode
  * }
  */
-func hasCycleTwo(head *linkedlist.ListNode) bool {
+func hasCycleTwo(head *ListNode) bool {
     for head != nil {
         if head == head.Next {
             return true

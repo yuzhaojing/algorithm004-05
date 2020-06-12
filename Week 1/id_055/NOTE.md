@@ -201,7 +201,7 @@ https://leetcode.com/problems/swap-nodes-in-pairs
 ```js
 var swapPairs = function(head) {
    
-    let preNode = new linkedlist.ListNode(-1)
+    let preNode = new ListNode(-1)
     
     preNode.next = head
     
@@ -266,7 +266,7 @@ https://leetcode.com/problems/reverse-nodes-in-k-group/
 
 ```js
 var reverseKGroup = function(head, k) {
-    let preNode = new linkedlist.ListNode(-1)
+    let preNode = new ListNode(-1)
     let tmp = preNode
     
     while (true) {

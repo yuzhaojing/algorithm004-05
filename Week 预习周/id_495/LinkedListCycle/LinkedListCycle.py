@@ -1,7 +1,7 @@
 #!/anaconda3/bin/python
 # -*- coding: utf-8 -*-
 
-class linkedlist.ListNode(object):
+class ListNode(object):
 
     def __init__(self, x):
         self.val = x
@@ -13,8 +13,8 @@ class Solution(object):
     @staticmethod
     def detectCycle(head):
         """
-        :type head: linkedlist.ListNode
-        :rtype: linkedlist.ListNode
+        :type head: ListNode
+        :rtype: ListNode
         """
         slow = fast = finder = head
         while fast and fast.next:
@@ -28,10 +28,10 @@ class Solution(object):
         return None
 
 if __name__ == '__main__':
-    a = linkedlist.ListNode(1)
-    b = linkedlist.ListNode(2)
-    c = linkedlist.ListNode(3)
-    d = linkedlist.ListNode(4)
+    a = ListNode(1)
+    b = ListNode(2)
+    c = ListNode(3)
+    d = ListNode(4)
     a.next = b
     b.next = c
     c.next = a

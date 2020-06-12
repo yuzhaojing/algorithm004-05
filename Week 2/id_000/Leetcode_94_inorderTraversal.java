@@ -62,12 +62,3 @@ public class Leetcode_94_inorderTraversal {
         return res;
     }
 }
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode(int x) {
-        val = x;
-    }
-}

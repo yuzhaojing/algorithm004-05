@@ -1,6 +1,6 @@
 # 21. 合并两个有序链表
 class Solution:
-    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         # 法1
         if l1 and l2:
             if l1.val > l2.val: 
@@ -9,7 +9,7 @@ class Solution:
         return l1 or l2
 
         # 法2 
-        prehead = linkedlist.ListNode(-1)
+        prehead = ListNode(-1)
         prev = prehead
         while l1 and l2:
             if l1.val <= l2.val:

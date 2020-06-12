@@ -1,10 +1,10 @@
 <?php
 /**
  * Definition for singly-linked list.
- * class linkedlist.ListNode {
+ * class ListNode {
  *     int val;
- *     linkedlist.ListNode next;
- *     linkedlist.ListNode(int x) {
+ *     ListNode next;
+ *     ListNode(int x) {
  *         val = x;
  *         next = null;
  *     }
@@ -14,7 +14,7 @@ class Solution
 {
     /**
      * 快慢指针
-     * @param linkedlist.ListNode $head
+     * @param ListNode $head
      * @return boolean
      */
     public function hasCycle($head)
@@ -36,7 +36,7 @@ class Solution
 
     /**
      * 迭代
-     * @param linkedlist.ListNode $head
+     * @param ListNode $head
      * @return boolean
      */
     public function hasCycle($head)
@@ -54,7 +54,7 @@ class Solution
     }
 }
 
-class linkedlist.ListNode
+class ListNode
 {
     public $val;
     public $next;
@@ -75,7 +75,7 @@ class List
         $this->val = $arrs[0];
         $pre = $this;
         for ($i = 1; $i < count($arrs); $i++) {
-            $pre->next = new linkedlist.ListNode();
+            $pre->next = new ListNode();
             $pre->next->val = $arrs[$i];
             $pre = $pre->next;
             if ($p == 1 && $i == count($arrs) - 1) {

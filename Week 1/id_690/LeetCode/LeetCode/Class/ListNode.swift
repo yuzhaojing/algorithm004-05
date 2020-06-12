@@ -1,5 +1,5 @@
 //
-//  linkedlist.ListNode.swift
+//  ListNode.swift
 //  LeetCode
 //
 //  Created by 张银龙 on 2019/10/20.
@@ -8,9 +8,9 @@
 
 import Cocoa
 
- public class linkedlist.ListNode {
+ public class ListNode {
      public var val: Int
-     public var next: linkedlist.ListNode?
+     public var next: ListNode?
      public init(_ val: Int) {
          self.val = val
          self.next = nil

@@ -1,7 +1,7 @@
 <?php
 /**
  * Definition for a singly-linked list.
- * class linkedlist.ListNode {
+ * class ListNode {
  *     public $val = 0;
  *     public $next = null;
  *     function __construct($val) { $this->val = $val; }
@@ -9,9 +9,9 @@
  */
 class Solution {
     /**
-     * @param linkedlist.ListNode $l1
-     * @param linkedlist.ListNode $l2
-     * @return linkedlist.ListNode
+     * @param ListNode $l1
+     * @param ListNode $l2
+     * @return ListNode
      */
     function mergeTwoLists($l1, $l2) {
         if ($l1 == null) {

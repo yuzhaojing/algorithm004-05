@@ -1,7 +1,7 @@
 <?php
 /**
  * Definition for a singly-linked list.
- * class linkedlist.ListNode {
+ * class ListNode {
  *     public $val = 0;
  *     public $next = null;
  *     function __construct($val) { $this->val = $val; }
@@ -12,10 +12,10 @@ class Solution
 
     /**
      * 执行用时 :4 ms, 在所有 php 提交中击败了85.71%的用户
-     * @param linkedlist.ListNode $head
+     * @param ListNode $head
      * @param Integer $m
      * @param Integer $n
-     * @return linkedlist.ListNode
+     * @return ListNode
      */
     public function reverseBetween($head, $m, $n)
     {
@@ -23,7 +23,7 @@ class Solution
             return null;
         }
         // 创建一个虚拟节点以标记此列表的开头
-        $dummy = new linkedlist.ListNode();
+        $dummy = new ListNode();
         $dummy->next = $head;
         // 在反转之前，用 pre 标记该节点
         $pre = $dummy;

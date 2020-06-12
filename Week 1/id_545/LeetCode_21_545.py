@@ -1,8 +1,8 @@
 ## 合并两个有序链表
 # 迭代法 时间：O(n) 空间：O(1)
 class Solution:
-    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
-        preHead = linkedlist.ListNode(-1)
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        preHead = ListNode(-1)
         prev = preHead
         
         while l1 and l2:

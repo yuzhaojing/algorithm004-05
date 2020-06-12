@@ -36,7 +36,7 @@ a
 ```java
 import java.util.LinkedList;
 
-public class array.Leetcode_88_MergeSortedArray {
+public class Leetcode_88_MergeSortedArray {
     public static void main(String[] args) {
         LinkedList<String> newDeque = new LinkedList<>();
         newDeque.addFirst("a");

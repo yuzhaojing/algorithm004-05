@@ -27,13 +27,13 @@
 /**
  * 迭代 时间O(n+m) 空间O(1)
  * Definition for singly-linked list.
- * type linkedlist.ListNode struct {
+ * type ListNode struct {
  *     Val int
- *     Next *linkedlist.ListNode
+ *     Next *ListNode
  * }
  */
-func mergeTwoLists(l1 *linkedlist.ListNode, l2 *linkedlist.ListNode) *linkedlist.ListNode {
-	head := new(linkedlist.ListNode)
+func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
+	head := new(ListNode)
 	l3 := head
 
 	for l1 != nil && l2 != nil {

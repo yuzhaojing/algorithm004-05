@@ -3,15 +3,15 @@
 # @lc app=leetcode.cn id=21 lang=python3
 # 执行用时：44 ms 超过95.40%
 # Definition for singly-linked list.
-class linkedlist.ListNode:
+class ListNode:
     def __init__(self, x):
         self.val = x
         self.next = None
         
 class Solution:
     # 目前只学到了1种解题方法
-    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
-        prehead = linkedlist.ListNode(-1)
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
+        prehead = ListNode(-1)
         mp = prehead
         while l1 and l2:
             # l1节点值 小于 l2节点值 ，新链表都以l1节点为主

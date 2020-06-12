@@ -22,7 +22,7 @@
 '''
 
 class Solution:
-    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         if l1 is None:
             return l2
         elif l2 is None:
@@ -41,7 +41,7 @@ class Solution:
 
 '''
 利用哨兵简化操作
-prehead= linkedlist.ListNode(-1)
+prehead= ListNode(-1)
 
 重复处理单元：
 比较大小，将小的加入 prev
@@ -61,9 +61,9 @@ prehead= linkedlist.ListNode(-1)
 '''
 
 class Solution:
-    def mergeTwoLists(self, l1: linkedlist.ListNode, l2: linkedlist.ListNode) -> linkedlist.ListNode:
+    def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         # 利用哨兵简化操作
-        prehead= linkedlist.ListNode(-1)
+        prehead= ListNode(-1)
         # 迭代前处理：
         prev = prehead # prev 用于迭代 这里记录表头 用于返回
         # 迭代终止条件：

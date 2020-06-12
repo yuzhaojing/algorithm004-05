@@ -6,8 +6,8 @@
 
 /**
  * 第一种解法：迭代法
- * @param linkedlist.ListNode $head
- * @return linkedlist.ListNode
+ * @param ListNode $head
+ * @return ListNode
  */
 function reverseList($head) {
     $curr = $head;

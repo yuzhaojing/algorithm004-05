@@ -1,7 +1,7 @@
 <?php
 /**
  * Definition for a singly-linked list.
- * class linkedlist.ListNode {
+ * class ListNode {
  *     public $val = 0;
  *     public $next = null;
  *     function __construct($val) { $this->val = $val; }
@@ -12,9 +12,9 @@ class Solution
 
     /**
      * 递归
-     * @param linkedlist.ListNode $l1
-     * @param linkedlist.ListNode $l2
-     * @return linkedlist.ListNode
+     * @param ListNode $l1
+     * @param ListNode $l2
+     * @return ListNode
      */
     public function mergeTwoLists($l1, $l2)
     {
@@ -38,13 +38,13 @@ class Solution
 
     /**
      * 迭代
-     * @param linkedlist.ListNode $l1
-     * @param linkedlist.ListNode $l2
-     * @return linkedlist.ListNode
+     * @param ListNode $l1
+     * @param ListNode $l2
+     * @return ListNode
      */
     public function mergeTwoListsTwo($l1, $l2)
     {
-        $preHead = new linkedlist.ListNode(-1);
+        $preHead = new ListNode(-1);
         $pre = $preHead;
         while ($l1 && $l2) {
             if ($l1 < $l2) {
@@ -62,7 +62,7 @@ class Solution
     }
 }
 
-class linkedlist.ListNode
+class ListNode
 {
     public $val;
     public $next;
@@ -83,7 +83,7 @@ class List
         $this->val = $arrs[0];
         $pre = $this;
         for ($i=1; $i < count($arrs) ; $i++) {
-            $pre->next = new linkedlist.ListNode();
+            $pre->next = new ListNode();
             $pre->next->val = $arrs[$i];
             $pre = $pre->next;
         }
