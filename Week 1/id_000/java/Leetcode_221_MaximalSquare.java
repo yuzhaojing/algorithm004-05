@@ -3,7 +3,7 @@ import java.util.Arrays;
 /**
  * 1、两数之和
  */
-public class Leetcode_148_MaximalSquare {
+public class Leetcode_221_MaximalSquare {
 
     public static void main(String[] args) {
         char[][] ints = {{'1','0','1','0','0'},{'1','0','1','1','1'},{'1','1','1','1','1'},{'1','0','0','1','0'}};
