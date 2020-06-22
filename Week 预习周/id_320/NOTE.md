@@ -32,15 +32,15 @@
 public class LinkedList<E> extends AbstractSequentialList<E> implements List<E>, Deque<E>, Cloneable, java.io.Serializable {
     
     transient int size = 0;
-    transient Node<E> first;
-    transient Node<E> last;
+    transient leetcode.Node<E> first;
+    transient leetcode.Node<E> last;
     
-    private static class Node<E> {
+    private static class leetcode.Node<E> {
         E item;
-        Node<E> next;
-        Node<E> prev;
+        leetcode.Node<E> next;
+        leetcode.Node<E> prev;
 
-        Node(Node<E> prev, E element, Node<E> next) {
+        leetcode.Node(leetcode.Node<E> prev, E element, leetcode.Node<E> next) {
             this.item = element;
             this.next = next;
             this.prev = prev;
@@ -181,7 +181,7 @@ HashMap是通过数组存储所有的数据，每个元素所存放数组的下�
      */
     final V putVal(int hash, K key, V value, boolean onlyIfAbsent,
                    boolean evict) {
-        Node<K,V>[] tab; Node<K,V> p; int n, i;
+        leetcode.Node<K,V>[] tab; leetcode.Node<K,V> p; int n, i;
          // 如果table数组为null,则通过扩容方法创建一个默认容量为16的Node节点数组
         if ((tab = table) == null || (n = tab.length) == 0)
             n = (tab = resize()).length;
@@ -190,14 +190,14 @@ HashMap是通过数组存储所有的数据，每个元素所存放数组的下�
         if ((p = tab[i = (n - 1) & hash]) == null)
             tab[i] = newNode(hash, key, value, null);
         else {
-            Node<K,V> e; K k;
+            leetcode.Node<K,V> e; K k;
             // 如果待存key与现有key(即tab[i])的hash相等且key数值相等
             if (p.hash == hash &&
                 ((k = p.key) == key || (key != null && key.equals(k))))
                 e = p;
             //判断取的对象是不是TreeNode，如果是则执行TreeNode的put方法
-            else if (p instanceof TreeNode)
-                e = ((TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
+            else if (p instanceof leetcode.TreeNode)
+                e = ((leetcode.TreeNode<K,V>)p).putTreeVal(this, tab, hash, key, value);
             else {
                 // 普通Node节点，根据next属性对元素p执行单向链表的遍历
                 for (int binCount = 0; ; ++binCount) {
