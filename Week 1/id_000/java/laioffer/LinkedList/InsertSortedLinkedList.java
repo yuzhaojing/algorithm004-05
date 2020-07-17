@@ -6,31 +6,30 @@ public class InsertSortedLinkedList {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(3);
-        listNode = insertSortedLinkedList(listNode, 5);
+        listNode = new InsertSortedLinkedList().insert(listNode, 5);
 
         System.out.println(listNode);
     }
 
-    private static ListNode insertSortedLinkedList(ListNode head, int value) {
-        ListNode node = new ListNode(value);
+    public ListNode insert(ListNode head, int value) {
+        // Write your solution here
+        ListNode target = new ListNode(value);
+        if (head == null || head.value >= value) {
+            target.next = head;
+            return target;
+        }
+
         ListNode cur = head;
 
         while (cur != null) {
-            if (cur.value > value) {
-                node.next = cur;
-                return node;
+            if (cur.value < value && (cur.next == null || cur.next.value >= value)) {
+                target.next = cur.next;
+                cur.next = target;
+                return head;
             } else {
-                ListNode next = cur.next;
-                if (cur.next == null || cur.next.value >= value) {
-                    cur.next = node;
-                    node.next = next;
-                    return head;
-                } else {
-                    cur = next;
-                }
+                cur = cur.next;
             }
         }
-
-        return node;
+        return head;
     }
 }

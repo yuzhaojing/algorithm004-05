@@ -1,7 +1,5 @@
 package laioffer.LinkedList;
 
-import java.util.HashMap;
-
 class ListNode {
     int value;
     ListNode next;
@@ -31,16 +29,16 @@ public class ReverseLinkedList {
      * next指针用于记录cur指向prev之后，链表的头节点
      */
     private static ListNode reverse(ListNode head) {
-        if (head == null || head.next == null) return head;
+        if (head == null || head.next == null) {
+            return head;
+        }
 
         ListNode prev = null;
         ListNode cur = head;
 
         while (cur != null) {
             ListNode next = cur.next;
-
             cur.next = prev;
-
             prev = cur;
             cur = next;
         }
@@ -52,13 +50,15 @@ public class ReverseLinkedList {
      * 递归
      */
     private static ListNode reverse1(ListNode head) {
-        if (head == null || head.next == null) return head;
+        if (head == null || head.next == null) {
+            return head;
+        }
 
-        ListNode node = reverse1(head.next);
+        ListNode newHead = reverse1(head.next);
 
         head.next.next = head;
         head.next = null;
 
-        return node;
+        return newHead;
     }
 }

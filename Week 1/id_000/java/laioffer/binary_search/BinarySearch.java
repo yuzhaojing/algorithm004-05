@@ -16,9 +16,6 @@ public class BinarySearch {
 
 //        int[] nums = {1, 2, 3, 4, 5, 5, 5, 5, 9, 17, 21};
 //        System.out.println(binarySearchFirstIndex(nums, 4));
-
-        int[] nums = {1, 2, 3, 4, 5, 5, 5, 5, 9, 17, 21};
-        System.out.println(Arrays.toString(binarySearchClosestK(nums, 5, 5)));
     }
 
     // Classical Version
@@ -34,7 +31,7 @@ public class BinarySearch {
             if (nums[mid] == target) {
                 return true;
             } else if (nums[mid] < target) {
-                // left = mid也可以，这里使用left = mid + 1是因为mid一定不是需要的结果
+                // 当while循环有等于的时候，不能使用left = mid，否则可能导致死循环
                 left = mid + 1;
             } else {
                 // 原因同上
@@ -95,43 +92,6 @@ public class BinarySearch {
         return Math.abs(nums[left] - target) <
                 Math.abs(nums[right] - target) ?
                 nums[left] : nums[right];
-    }
-
-    // 搜索大小和target最接近的k个数
-    private static int[] binarySearchClosestK(int[] nums, int target, int k) {
-        int[] res = {-1, -1};
-        if (nums == null || nums.length == 0) return res;
-
-        int left = 0;
-        int right = nums.length - 1;
-
-
-        while (left + 1 < right) {
-            int mid = left + (right - left) / 2;
-            if (nums[mid] == target) {
-                left = mid;
-                right = mid;
-                break;
-            }
-        }
-
-        while (right - left + 1 < k) {
-            left--;
-            right++;
-
-            if (right - left + 1 > k) {
-                if (target - nums[left] < nums[right] - target) {
-                    left++;
-                } else {
-                    right--;
-                }
-            }
-        }
-
-        res[0] = left;
-        res[1] = right;
-
-        return res;
     }
 
     // 搜索目标元素的第一个角标

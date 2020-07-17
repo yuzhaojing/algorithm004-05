@@ -10,45 +10,37 @@ public class PartitionLinkedList {
         listNode.next.next.next.next = new ListNode(5);
         listNode.next.next.next.next.next = new ListNode(2);
         listNode.next.next.next.next.next.next = new ListNode(4);
-        listNode = partitionLinkedList(listNode, 4);
+        listNode = new PartitionLinkedList().partition(listNode, 4);
 
         System.out.println(listNode);
     }
 
-    private static ListNode partitionLinkedList(ListNode head, int target) {
-        if (head == null || head.next == null) return head;
+    public ListNode partition(ListNode head, int target) {
+        // Write your solution here
+        if (head == null || head.next == null) {
+            return head;
+        }
 
-        ListNode largePrev = new ListNode(0);
-        ListNode smallPrev = new ListNode(0);
+        ListNode smallDummy = new ListNode(0);
+        ListNode largeDummy = new ListNode(0);
 
-        ListNode largeCur = largePrev;
-        ListNode smallCur = smallPrev;
-
-        int count = 0;
+        ListNode smallCur = smallDummy;
+        ListNode largeCur = largeDummy;
 
         while (head != null) {
-            if (head.value == target) {
-                count++;
-            } else if (head.value < target) {
+            if (head.value < target) {
                 smallCur.next = head;
                 smallCur = smallCur.next;
             } else {
                 largeCur.next = head;
                 largeCur = largeCur.next;
             }
-
             head = head.next;
         }
 
-        while (count > 0) {
-            smallCur.next = new ListNode(target);
-            smallCur = smallCur.next;
-            count--;
-        }
-
-        smallCur.next = largePrev.next;
         largeCur.next = null;
+        smallCur.next = largeDummy.next;
 
-        return smallPrev.next;
+        return smallDummy.next;
     }
 }

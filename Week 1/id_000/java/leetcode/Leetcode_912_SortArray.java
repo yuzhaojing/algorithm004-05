@@ -120,6 +120,9 @@ public class Leetcode_912_SortArray {
         while (i <= mid) tmpArr[k++] = nums[i++];
         while (j <= right) tmpArr[k++] = nums[j++];
 
-        System.arraycopy(tmpArr, 0, nums, left, tmpArr.length);
+//        System.arraycopy(tmpArr, 0, nums, left, tmpArr.length);
+        for (int x = 0; x < tmpArr.length; x++) {
+            nums[left++] = tmpArr[x];
+        }
     }
 }
