@@ -1,6 +1,6 @@
 package laioffer.LinkedList;
 
-public class RemoveExtraDuplicates {
+public class RemoveDuplicatesSortedList {
 
     public static void main(String[] args) {
         ListNode listNode = new ListNode(1);
@@ -10,7 +10,7 @@ public class RemoveExtraDuplicates {
         listNode.next.next.next.next = new ListNode(4);
         listNode.next.next.next.next.next = new ListNode(4);
         listNode.next.next.next.next.next.next = new ListNode(5);
-        listNode = new RemoveExtraDuplicates().removeDup(listNode);
+        listNode = new RemoveDuplicatesSortedList().removeDup(listNode);
 
         System.out.println(listNode);
     }
@@ -31,7 +31,7 @@ public class RemoveExtraDuplicates {
                 while (temp != null && temp.next != null && temp.value == temp.next.value) {
                     temp = temp.next;
                 }
-                cur = temp.next;
+                cur = temp;
                 prev.next = cur;
             } else {
                 prev.next = cur;
@@ -39,7 +39,6 @@ public class RemoveExtraDuplicates {
                 cur = cur.next;
             }
         }
-
         return dummy.next;
     }
 }

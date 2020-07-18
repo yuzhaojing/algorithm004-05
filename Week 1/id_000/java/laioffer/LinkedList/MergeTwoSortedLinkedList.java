@@ -21,7 +21,9 @@ public class MergeTwoSortedLinkedList {
             return one;
         }
 
+        // head不确定，使用dummy方便，可以少做很多判断
         ListNode dummy = new ListNode(0);
+        // 需要一直往dummy这个链表后面添加元素，保持一个指针在链表末尾
         ListNode cur = dummy;
 
         while (one != null && two != null) {
@@ -35,6 +37,8 @@ public class MergeTwoSortedLinkedList {
             cur = cur.next;
         }
 
+        // 循环结束后一定有一个链表中还有元素
+        // 一下两个判断只会进入一个，所以cur不需要移动了
         if (one != null) {
             cur.next = one;
         }

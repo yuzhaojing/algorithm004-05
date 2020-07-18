@@ -7,14 +7,15 @@ public class DeleteAtIndex {
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(3);
         listNode.next.next.next = new ListNode(3);
-        listNode = new DeleteAtIndex().deleteNode(listNode, 1);
+        listNode = new DeleteAtIndex().deleteNodeWithDummy(listNode, 1);
 
         System.out.println(listNode);
     }
 
+    // 不使用dummy，提前判断
     public ListNode deleteNode(ListNode head, int index) {
         // Write your solution here
-        if (index < 0 || head == null) {
+        if (head == null || index < 0) {
             return head;
         }
 
@@ -26,21 +27,47 @@ public class DeleteAtIndex {
         ListNode cur = head;
 
         while (index > 0) {
-            // 由于定义上要删除的是cur，所以cur.next也不能为null
-            // 否则进入cur = cur.next之后，index在本轮循环减至0
-            // 在下面删除的时候就会删除链表尾部的null，这是无意义的
-            if (cur != null && cur.next != null) {
-                prev = cur;
-                cur = cur.next;
-                index--;
-            } else {
-                // 当index未归0，并且cur为null的情况下，后续循环无意义，不会删除元素
+            // 此时index > 0,如果cur = null或者cur.next = null,
+            // 那么继续下一轮循环无意义，因为null无法被删除
+            if (cur.next == null) {
                 return head;
             }
+
+            prev = cur;
+            cur = cur.next;
+            index--;
         }
 
+        // 此时index = 0 and cur != null
         prev.next = cur.next;
-        cur.next = null;
         return head;
+    }
+
+    public ListNode deleteNodeWithDummy(ListNode head, int index) {
+        // Write your solution here
+        if (head == null || index < 0) {
+            return head;
+        }
+
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode prev = dummy;
+        ListNode cur = head;
+
+        while (index > 0) {
+            // 此时index > 0,如果cur = null或者cur.next = null,
+            // 那么继续下一轮循环无意义，因为null无法被删除
+            if (cur.next == null) {
+                return head;
+            }
+
+            prev = cur;
+            cur = cur.next;
+            index--;
+        }
+
+        // 此时index = 0 and cur != null
+        prev.next = cur.next;
+        return dummy.next;
     }
 }

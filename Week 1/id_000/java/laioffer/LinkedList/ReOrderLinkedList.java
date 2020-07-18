@@ -12,6 +12,19 @@ public class ReOrderLinkedList {
         System.out.println(listNode);
     }
 
+    /**
+     * 1 -> 2 -> 3 -> 4 -> null, is reordered to 1 -> 4 -> 2 -> 3 -> null
+     *
+     * 1、找出链表中点，将链表断开成为前后两个链表
+     *    1 -> 2 -> null
+     *    3 -> 4 -> null
+     * 2、将后半部分链表反转
+     *    1 -> 2 -> null
+     *    4 -> 3 -> null
+     * 3、合并两个链表，将两个链表按照1 -> 4 -> 2 -> 3的顺序合并
+     *    由于链表的head可以确定为原始链表的head，所以不需要dummy
+     */
+
     public ListNode reorder(ListNode head) {
         // Write your solution here
         if (head == null || head.next == null) {
