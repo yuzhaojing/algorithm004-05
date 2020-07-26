@@ -1,12 +1,12 @@
 package laioffer.tree;
 
 public class TreeNode {
-    public int value;
+    public int key;
     public TreeNode left;
     public TreeNode right;
 
     public TreeNode(int value) {
-        this.value = value;
+        this.key = value;
     }
 }
 

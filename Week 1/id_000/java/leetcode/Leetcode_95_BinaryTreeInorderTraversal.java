@@ -70,7 +70,7 @@ public class Leetcode_95_BinaryTreeInorderTraversal {
                 stack.push(((TreeNode) pop).right);
                 stack.push(((TreeNode) pop).val);
                 stack.push(((TreeNode) pop).left);
-            } else if (pop instanceof Integer){
+            } else if (pop instanceof Integer) {
                 res.add((Integer) pop);
             }
         }

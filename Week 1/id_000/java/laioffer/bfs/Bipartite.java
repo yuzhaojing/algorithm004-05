@@ -12,9 +12,15 @@ public class Bipartite {
         GraphNode graphNode4 = new GraphNode(4);
         GraphNode graphNode5 = new GraphNode(5);
         GraphNode graphNode6 = new GraphNode(6);
-        graphNode0.neighbors = new ArrayList<GraphNode>() {{ add(graphNode1);}};
-        graphNode1.neighbors = new ArrayList<GraphNode>() {{ add(graphNode2);}};
-        graphNode2.neighbors = new ArrayList<GraphNode>() {{ add(graphNode3);}};
+        graphNode0.neighbors = new ArrayList<GraphNode>() {{
+            add(graphNode1);
+        }};
+        graphNode1.neighbors = new ArrayList<GraphNode>() {{
+            add(graphNode2);
+        }};
+        graphNode2.neighbors = new ArrayList<GraphNode>() {{
+            add(graphNode3);
+        }};
 //        graphNode3.neighbors = new ArrayList<GraphNode>();
         graphNode4.neighbors = new ArrayList<GraphNode>() {{
             add(graphNode5);
@@ -29,7 +35,7 @@ public class Bipartite {
             add(graphNode5);
         }};
 
-        System.out.println(isBipartite(new ArrayList<GraphNode>() {{
+        System.out.println(new Bipartite().isBipartite((new ArrayList<GraphNode>() {{
             add(graphNode0);
             add(graphNode1);
             add(graphNode2);
@@ -37,39 +43,47 @@ public class Bipartite {
             add(graphNode4);
             add(graphNode5);
             add(graphNode6);
-        }}));
+        }})));
     }
 
-    private static boolean isBipartite(List<GraphNode> graph) {
+    public boolean isBipartite(List<GraphNode> graph) {
         // write your solution here
-        HashMap<Integer, Integer> visited = new HashMap<>();
-        Queue<GraphNode> queue = new LinkedList<>();
+        if (graph == null || graph.size() <= 1) {
+            return true;
+        }
 
-        for (GraphNode node : graph) {
-            if (!visited.containsKey(node.key)) {
-                queue.offer(node);
-                visited.put(node.key, 0);
+        Map<GraphNode, Integer> visited = new HashMap<>();
+        for (GraphNode graphNode : graph) {
+            if (!BFS(graphNode, visited)) {
+                return false;
             }
+        }
 
-            while (!queue.isEmpty()) {
-                int size = queue.size();
+        return true;
+    }
 
-                for (int i = 0; i < size; i++) {
-                    GraphNode graphNode = queue.remove();
-                    Integer group = visited.get(graphNode.key);
-                    for (int j = 0; j < graphNode.neighbors.size(); j++) {
-                        int key = graphNode.neighbors.get(j).key;
-                        if (!visited.containsKey(graphNode.neighbors.get(j).key)) {
-                            visited.put(key, 1 - group);
-                            queue.offer(graphNode.neighbors.get(j));
-                        } else if (visited.get(key).intValue() == group) {
-                            return false;
-                        }
-                    }
+    private boolean BFS(GraphNode graphNode, Map<GraphNode, Integer> visited) {
+        if (visited.containsKey(graphNode)) {
+            return true;
+        }
+
+        Queue<GraphNode> queue = new ArrayDeque<>();
+        queue.offer(graphNode);
+        visited.put(graphNode, 0);
+
+        while (!queue.isEmpty()) {
+            GraphNode cur = queue.poll();
+            int group = visited.get(cur);
+            for (GraphNode neighbor : cur.neighbors) {
+                if (!visited.containsKey(neighbor)) {
+                    queue.offer(neighbor);
+                    visited.put(neighbor, 1 - group);
+                } else if (visited.get(neighbor) == group) {
+                    return false;
                 }
             }
-
         }
+
         return true;
     }
 }

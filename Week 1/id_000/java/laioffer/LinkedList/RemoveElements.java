@@ -19,7 +19,7 @@ public class RemoveElements {
         }
 
         ListNode dummy = new ListNode(0);
-        // 由于在head.value != val的情况下，prev没有给next赋值
+        // 由于在head.key != val的情况下，prev没有给next赋值
         // 所以需要预先将head接到dummy后面
         // 或者将prev = head改写为 prev.next = head; prev = prev.next;
         dummy.next = head;

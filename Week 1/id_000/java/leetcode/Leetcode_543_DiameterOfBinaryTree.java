@@ -8,9 +8,12 @@ public class Leetcode_543_DiameterOfBinaryTree {
     public static void main(String[] args) {
         TreeNode node = new TreeNode(1);
         node.left = new TreeNode(2);
-        node.right = new TreeNode(3);
-        node.left.left = new TreeNode(4);
-        node.left.right = new TreeNode(5);
+        node.left.left = new TreeNode(3);
+//        node.right = new TreeNode(3);
+//        node.left.left = new TreeNode(4);
+//        node.left.right = new TreeNode(5);
+//        node.left.left.left = new TreeNode(6);
+//        node.left.right.right = new TreeNode(7);
 
         System.out.println(method1(node));
     }
