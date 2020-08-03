@@ -11,7 +11,7 @@ public class IsBST {
         root.right.left = new TreeNode(11);
         root.right.right = new TreeNode(20);
 
-        System.out.println(new IsBST().isBST(root));
+        System.out.println(new IsBST().isBST1(root));
     }
 
     /**
@@ -39,5 +39,27 @@ public class IsBST {
         }
 
         return isBST(root.left, min, root.key) && isBST(root.right, root.key, max);
+    }
+
+    /**
+     * 使用inorder升序的性质做
+     */
+    public boolean isBST1(TreeNode root) {
+        // 使用布尔数组保存信息
+        boolean[] flag = new boolean[] {true};
+        inOrder(root, new int[1], flag);
+        return flag[0];
+    }
+
+    // 使用int数组保存前一个访问的元素
+    public void inOrder(TreeNode root, int[] prev, boolean[] flag) {
+        if (root != null) {
+            inOrder(root.left, prev, flag);
+            if (root.key <= prev[0]) {
+                flag[0] = false;
+            }
+            prev[0] = root.key;
+            inOrder(root.right, prev, flag);
+        }
     }
 }

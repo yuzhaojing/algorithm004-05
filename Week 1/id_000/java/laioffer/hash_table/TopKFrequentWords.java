@@ -9,58 +9,50 @@ import java.util.PriorityQueue;
 public class TopKFrequentWords {
 
     public static void main(String[] args) {
-        String[] combo = {"d","a","c","b","d","a","b","b","a","d","d","a","d"};
-        System.out.println(Arrays.toString(topKFrequent(combo, 5)));
+        String[] combo = {"d", "a", "c", "b", "d", "a", "b", "b", "a", "d", "d", "a", "d"};
+        System.out.println(Arrays.toString(new TopKFrequentWords().topKFrequent(combo, 5)));
     }
 
-    private static String[] topKFrequent(String[] combo, int k) {
-        if (combo == null || combo.length == 0) return combo;
+    public String[] topKFrequent(String[] combo, int k) {
+        // Write your solution here
+        if (combo == null || combo.length == 0 || k <= 0) {
+            return new String[0];
+        }
 
-        HashMap<String, Integer> map = new HashMap<>();
-
+        HashMap<String, Integer> FrequentMap = new HashMap<>();
         for (String s : combo) {
-            map.put(s, map.getOrDefault(s, 0) + 1);
-        }
-
-        // 大顶堆，全部入堆然后取k个
-        PriorityQueue<String> queue = new PriorityQueue<>(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return map.get(o2) - map.get(o1);
-            }
-        });
-
-        queue.addAll(map.keySet());
-
-        int size = map.size() < k ? map.size() : k;
-        String[] res = new String[size];
-        for (int i = 0; i < size; i++) {
-            res[i] = queue.poll();
-        }
-
-        //小顶堆，维持堆内元素个数为k个，每个新元素和堆顶元素比较，谁大留谁
-        /*PriorityQueue<String> queue = new PriorityQueue<>(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return map.get(o1) - map.get(o2);
-            }
-        });
-
-        for (String s : map.keySet()) {
-            if (queue.size() < k) {
-                queue.add(s);
+            if (!FrequentMap.containsKey(s)) {
+                FrequentMap.put(s, 1);
             } else {
-                String peek = queue.peek();
-                if (map.get(peek) < map.get(s)) {
-                    queue.poll();
-                    queue.add(s);
-                }
+                FrequentMap.put(s, FrequentMap.get(s) + 1);
             }
         }
 
-        for (int i = 0; i < k; i++) {
-            res[i] = queue.poll();
-        }*/
+        PriorityQueue<String> minHeap = new PriorityQueue<>(new Comparator<String>() {
+            @Override
+            public int compare(String s1, String s2) {
+                if (FrequentMap.get(s1).equals(FrequentMap.get(s2))) {
+                    return 0;
+                }
+                return FrequentMap.get(s1) < FrequentMap.get(s2) ? -1 : 1;
+            }
+        }
+        );
+
+        for (String s : FrequentMap.keySet()) {
+            if (minHeap.size() < k) {
+                minHeap.offer(s);
+            } else if (FrequentMap.get(minHeap.peek()) < FrequentMap.get(s)) {
+                minHeap.poll();
+                minHeap.offer(s);
+            }
+        }
+
+        int size = FrequentMap.size() < k ? FrequentMap.size() : k;
+        String[] res = new String[size];
+        for (int i = size - 1; i >= 0; i--) {
+            res[i] = minHeap.poll();
+        }
 
         return res;
     }

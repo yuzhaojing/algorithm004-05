@@ -8,59 +8,29 @@ public class KthSmallestSortedMatrix {
 
     public static void main(String[] args) {
         int[][] matrix = {{1, 3, 5, 7}, {2, 4, 8, 9}, {3, 5, 11, 15}, {6, 8, 13, 18}};
-        System.out.println(new KthSmallestSortedMatrix().kthSmallest1(matrix, 14));
+        System.out.println(new KthSmallestSortedMatrix().kthSmallest(matrix, 14));
     }
 
     /**
-     * 1 3 5  7
-     * 2 4 8  9
-     * 3 5 11 15
-     * 6 8 13 18
+     * time = O(klogk)
+     * 分析过程:
+     * 1.总共执行了k - 1次循环，因为每次循环取出一个元素，最多放入两个元素，
+     *   所以p-queue里面最多有k个元素
+     * 2.每次循环中
+     *   取出一个元素 time = O(logk)
+     *   最多放入两个元素 time = O(2logk)
+     *   time = O(logk) + O(2logk) = O(3logk)
+     * total time = O((k - 1) * 3logk) = O(klogk)
+     *
+     * space = O(k)
+     * 分析过程:
+     * 1.总共执行了k - 1次循环，因为每次循环取出一个元素，最多放入两个元素，
+     *   所以p-queue里面最多有k个元素 space = O(k)
+     * 2.声明了一个hashset用于去重，每次循环最多放入两个元素，循环k - 1次
+     *   space = O((k - 1) * 2) = O(k)
+     * total space = O(k) + O(k) = O(2k) = O(k)
      */
     public int kthSmallest(int[][] matrix, int k) {
-        // Write your solution here
-        if (matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) {
-            return -1;
-        }
-
-        int rowLen = matrix.length;
-        int colLen = matrix[0].length;
-
-        // int[0] = row
-        // int[1] = col
-        // int[2] = cost
-        Queue<int[]> minHeap = new PriorityQueue<>(new Comparator<int[]>() {
-            @Override
-            public int compare(int[] o1, int[] o2) {
-                return o1[2] - o2[2];
-            }
-        });
-
-        minHeap.offer(new int[]{0, 0, matrix[0][0]});
-        HashSet<String> set = new HashSet<>();
-        set.add(0 + "#" + 0);
-
-        for (int i = 0; i < k - 1; i++) {
-            int[] cur = minHeap.poll();
-            int row = cur[0];
-            int col = cur[1];
-            int value = cur[2];
-
-            if (row + 1 < rowLen && !set.contains((row + 1) + "#" + col)) {
-                minHeap.offer(new int[]{row + 1, col, matrix[row + 1][col]});
-                set.add((row + 1) + "#" + col);
-            }
-
-            if (col + 1 < colLen && !set.contains(row + "#" + (col + 1))) {
-                minHeap.offer(new int[]{row, col + 1, matrix[row][col + 1]});
-                set.add(row + "#" + (col + 1));
-            }
-        }
-
-        return minHeap.peek()[2];
-    }
-
-    public int kthSmallest1(int[][] matrix, int k) {
         // Write your solution here
         // base case
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0 || k <= 0) {

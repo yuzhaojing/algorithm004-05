@@ -13,6 +13,13 @@ public class CheckCompleted {
 
     }
 
+    /**
+     * time = O(n)
+     * 每个node遍历一次
+     *
+     * space = O(n/2) = O(n)
+     * worst case 树是完全二叉树，缓存全部的叶子节点，即n/2个node
+     */
     public boolean isCompleted(TreeNode root) {
         // Write your solution here
         if (root == null) {

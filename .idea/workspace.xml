@@ -2,77 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ee54e1-4904-4906-92ab-20c17127caaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/LevelOrderTraversal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/DoubleListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListDeque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ArrayToTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/BinaryTreeDiameter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/DeleteInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetRangeInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/InVertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/InsertInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MergeBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MinimumDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/NodeGetHeight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/SearchInBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeTravrseIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TweakedIdenticalTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/Exam/One/AllPermutationsI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/Exam/One/kSmallestSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/InsertSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_heap/Heap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_heap/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveCertainCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveRepeatedCharactersI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveRepeatedCharactersIV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveSpaces.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/LowestCommonAncestorII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ReverseTreeUpsideDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/RightViewOfTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/RemoveElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/RemoveElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/Bipartite.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/Bipartite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllPermutationsI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllPermutationsI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/BoundedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/BoundedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/DoubleListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/DoubleListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListDeque.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/ListDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/ListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_queue_stack_deque/ListStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/heap/KSmallestInUnsortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/heap/KSmallestInUnsortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/stack/DequeByThreeStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/DequeByThreeStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/stack/MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/stack/QueueByTwoStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/QueueByTwoStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/stack/SortStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/SortStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/stack/StackByQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/StackByQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/binary_search_tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/binary_tree/TreeHeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/HeightAndBalanced.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/binary_tree/TreeSymetric.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeSymetric.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/binary_tree/TreeTravrse.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeTravrse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/leetcode/Leetcode_543_DiameterOfBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/leetcode/Leetcode_543_DiameterOfBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/leetcode/Leetcode_95_BinaryTreeInorderTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/leetcode/Leetcode_95_BinaryTreeInorderTraversal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/LinkedList/RemoveExtraDuplicatesSortedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/LinkedList/RemoveExtraDuplicatesSortedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Bipartite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/heap/KSmallestInUnsortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/heap/KSmallestInUnsortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/stack/DequeByThreeStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/stack/MinStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/stack/QueueByTwoStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/stack/SortStack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/stack/StackByQueue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/TreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/binary_search_tree/BST.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/binary_tree/TreeHeight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/binary_tree/TreeSymetric.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/binary_tree/TreeTravrse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/leetcode/Leetcode_543_DiameterOfBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/leetcode/Leetcode_543_DiameterOfBinaryTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/CommonNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/CommonNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/MissingNumberI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/MissingNumberI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/TopKFrequentWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/TopKFrequentWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/CheckCompleted.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/CheckCompleted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/KthSmallestSortedMatrix$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/KthSmallestSortedMatrix$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/KthSmallestSortedMatrix$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/KthSmallestSortedMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/KthSmallestSortedMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/bfs/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/BoundedQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/BoundedStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/DoubleListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/ListDeque.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/ListQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/design_queue_stack_deque/ListStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/AllPermutationsI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/AllPermutationsI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/AllSubSetI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/AllSubSetI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/CombinationsOfCoins.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/CombinationsOfCoins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/ValidParenthesesI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/dfs/ValidParenthesesI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/CommonNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/CommonNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/MissingNumberI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/MissingNumberI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/TopKFrequentWords$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/TopKFrequentWords$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/TopKFrequentWords.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/hash_table/TopKFrequentWords.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/IsBST.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm004-05/laioffer/tree/IsBST.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/algorithm004_05$AllSubSetI.ic" NAME="AllSubSetI Coverage Results" MODIFIED="1595757718999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>laioffer.dfs.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="201" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -94,49 +88,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetLevel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/NodeGetHeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MergeBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllPermutationsI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="233">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="34" />
               <folding>
                 <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,8 +103,75 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="222">
+              <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/CommonNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="318">
+              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="283">
+              <caret line="611" column="24" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
+              <folding>
+                <element signature="e#24331#24332#0" expanded="true" />
+                <element signature="e#24396#24397#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetLevel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ReverseTreeUpsideDown.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/ReverseLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/RightViewOfTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -154,45 +179,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="943">
+              <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
               <folding>
                 <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#232#233#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/LevelOrderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -242,30 +234,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/RemoveNthNodeFromEnd.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/InsertAtIndex.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/DeleteAtIndex.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/DeleteAtIndices.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/RotateLinkedList.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/ReverseLinkedListInPairs.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/ReverseLinkedList.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/RemoveExtraDuplicatesSortedList.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListNode.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListStack.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/DoubleListNode.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListQueue.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListDeque.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedStack.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedQueue.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/binary_search_tree/SearchInBST.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/binary_search_tree/InsertInBST.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/StackByQueue.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeTravrse.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeSymetric.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TweakedIdenticalTree.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/BST.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetRangeInBST.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/HeightAndBalanced.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/SortStack.java" />
@@ -279,20 +250,41 @@
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/SearchInBST.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/BinaryTreeDiameter.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/LevelOrderTraversal.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/Bipartite.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStack.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetLevel.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeNodGetHeight.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/NodeGetHeight.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ArrayToTree.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/heap/KSmallestInUnsortedArray.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MergeBinaryTree.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java" />
-        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java" />
         <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllPermutationsI.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/InsertSpace.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_heap/Heap.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/LowestCommonAncestorII.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_heap/MinHeap.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStackTest.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MergeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/Test.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/kSmallestSum.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/Exam/One/AllPermutationsI.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/MissingNumberI.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/CommonNumbers.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/TopKFrequentWords.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveCertainCharacters.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveSpaces.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveRepeatedCharactersI.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveRepeatedCharactersIV.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/Test.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/Exam/One/kSmallestSum.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ReverseTreeUpside.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/RightViewOfTree.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ReverseTreeUpsideDown.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java" />
+        <option value="$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java" />
       </list>
     </option>
   </component>
@@ -346,15 +338,6 @@
               <item name="id_000" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="bfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
               <item name="dfs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -364,15 +347,7 @@
               <item name="id_000" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="hash_table" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
@@ -388,7 +363,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595757439359" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596424103987" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -404,10 +379,10 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="laioffer.tree" />
+      <recent name="laioffer.string" />
+      <recent name="laioffer.Exam.One" />
+      <recent name="laioffer.dfs" />
       <recent name="laioffer.queue_and_stack" />
-      <recent name="laioffer.bfs" />
-      <recent name="laioffer.tree.binary_search_tree" />
-      <recent name="laioffer.design_queue_stack_deque" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList" />
@@ -429,22 +404,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AllSubSetI">
-    <configuration name="AllSubSetI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laioffer.dfs.AllSubSetI" />
-      <module name="algorithm004-05" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="laioffer.dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrayToTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laioffer.tree.ArrayToTree" />
+  <component name="RunManager" selected="Application.ReverseTreeUpsideDown">
+    <configuration name="IsBST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laioffer.tree.IsBST" />
       <module name="algorithm004-05" />
       <extension name="coverage">
         <pattern>
@@ -456,8 +418,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetLevel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laioffer.tree.GetLevel" />
+    <configuration name="RemoveRepeatedCharactersIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laioffer.string.RemoveRepeatedCharactersIV" />
+      <module name="algorithm004-05" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="laioffer.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseTreeUpsideDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laioffer.tree.ReverseTreeUpsideDown" />
       <module name="algorithm004-05" />
       <extension name="coverage">
         <pattern>
@@ -469,8 +444,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laioffer.tree.MergeBinaryTree" />
+    <configuration name="RightViewOfTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laioffer.tree.RightViewOfTree" />
       <module name="algorithm004-05" />
       <extension name="coverage">
         <pattern>
@@ -482,12 +457,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeGetHeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="laioffer.tree.NodeGetHeight" />
+    <configuration name="kSmallestSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="laioffer.Exam.One.kSmallestSum" />
       <module name="algorithm004-05" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="laioffer.tree.*" />
+          <option name="PATTERN" value="laioffer.Exam.One.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -497,11 +472,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AllSubSetI" />
-        <item itemvalue="Application.MergeBinaryTree" />
-        <item itemvalue="Application.ArrayToTree" />
-        <item itemvalue="Application.NodeGetHeight" />
-        <item itemvalue="Application.GetLevel" />
+        <item itemvalue="Application.ReverseTreeUpsideDown" />
+        <item itemvalue="Application.RightViewOfTree" />
+        <item itemvalue="Application.IsBST" />
+        <item itemvalue="Application.kSmallestSum" />
+        <item itemvalue="Application.RemoveRepeatedCharactersIV" />
       </list>
     </recent_temporary>
   </component>
@@ -533,12 +508,12 @@
       <workItem from="1592287582747" duration="5046000" />
       <workItem from="1592295841522" duration="114910000" />
       <workItem from="1594433846999" duration="66542000" />
-      <workItem from="1595251692711" duration="40624000" />
+      <workItem from="1595251692711" duration="75474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="422480000" />
+    <option name="totallyTimeSpent" value="457330000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,16 +528,16 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4927711" visible="true" weight="0.22532189" />
-      <window_info id="Structure" order="1" sideWeight="0.5072289" side_tool="true" weight="0.23032904" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4939759" visible="true" weight="0.24391988" />
+      <window_info active="true" id="Structure" order="1" sideWeight="0.5060241" side_tool="true" visible="true" weight="0.24391988" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50120485" side_tool="true" weight="0.26323318" />
+      <window_info id="Favorites" order="6" sideWeight="0.5060241" side_tool="true" weight="0.24391988" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,6 +549,7 @@
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
       <window_info anchor="bottom" id="Duplicate detector" order="13" weight="0.6987952" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -639,231 +615,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/RemoveExtraDuplicatesSortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
-          <folding>
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#781#782#0" expanded="true" />
-            <element signature="e#813#814#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
-          <folding>
-            <element signature="e#1080#1081#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1171#1172#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/DoubleListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding>
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/ListDeque.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="69" column="9" lean-forward="true" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding>
-            <element signature="e#2304#2305#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/com/sun/corba/se/impl/orbutil/DenseIntMapImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="229" column="17" selection-start-line="229" selection-start-column="17" selection-end-line="229" selection-end-column="17" />
-          <folding>
-            <element signature="e#6283#6284#0" expanded="true" />
-            <element signature="e#6351#6352#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#1135#1136#0" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/design_queue_stack_deque/BoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="119" column="16" lean-forward="true" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
-          <folding>
-            <element signature="e#2945#2946#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
-            <element signature="e#3017#3018#0" expanded="true" />
-            <element signature="e#3052#3053#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/DequeByThreeStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#pollFirst#0;class#DequeByThreeStack#0" />
-            <element signature="method#pollLast#0;class#DequeByThreeStack#0" />
-            <element signature="method#move#0;class#DequeByThreeStack#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/QueueByTwoStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="671" column="13" selection-start-line="671" selection-start-column="13" selection-end-line="671" selection-end-column="13" />
-          <folding>
-            <element signature="e#20484#20485#0" expanded="true" />
-            <element signature="e#20520#20521#0" expanded="true" />
-            <element signature="e#20770#20771#0" expanded="true" />
-            <element signature="e#20799#20800#0" expanded="true" />
-            <element signature="e#23214#23215#0" expanded="true" />
-            <element signature="e#23241#23242#0" expanded="true" />
-            <element signature="e#23699#23700#0" expanded="true" />
-            <element signature="e#23735#23736#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MinStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/StackByQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/leetcode/Leetcode_144_BinaryTreePreorderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-386">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MinimumDepth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/InVertBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/leetcode/Leetcode_543_DiameterOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="20" column="27" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/HeightAndBalanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-267">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeSymetric.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TweakedIdenticalTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="24" column="19" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -922,24 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeTravrseIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="33" column="16" lean-forward="true" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/BinaryTreeDiameter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="54" column="53" lean-forward="true" selection-start-line="54" selection-start-column="53" selection-end-line="54" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/GraphNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -957,57 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/Bipartite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="77" selection-start-line="77" selection-end-line="82" selection-end-column="11" />
-          <folding>
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#980#981#0" expanded="true" />
-            <element signature="e#2334#2335#0" expanded="true" />
-            <element signature="e#2392#2393#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/SortStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-176">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/LevelOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetLevel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1028,59 +722,320 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/heap/KSmallestInUnsortedArray.java">
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeTravrseIteration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="208" column="21" selection-start-line="208" selection-start-column="21" selection-end-line="208" selection-end-column="21" />
+        <state relative-caret-position="-622">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java">
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/DequeByThreeStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="1053">
+          <caret line="82" column="30" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#pollFirst#0;class#DequeByThreeStack#0" />
+            <element signature="method#pollLast#0;class#DequeByThreeStack#0" />
+            <element signature="method#move#0;class#DequeByThreeStack#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/LowestCommonAncestorII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1916">
+          <caret line="113" selection-start-line="113" selection-end-line="117" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#2587#2588#0" expanded="true" />
+            <element signature="e#2651#2652#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/practice/design_heap/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1322#1323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/queue_and_stack/MergeSortStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="63" column="20" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/MergeBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        <state relative-caret-position="198">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java">
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/heap/KSmallestInUnsortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="13" selection-start-line="13" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="-2396">
+          <caret line="75" column="83" selection-start-line="75" selection-start-column="76" selection-end-line="75" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/Exam/One/AllPermutationsI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/MissingNumberI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="57" column="14" lean-forward="true" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/TopKFrequentWords.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveCertainCharacters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
           <folding>
-            <element signature="e#153#154#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="576">
+          <caret line="203" column="25" lean-forward="true" selection-start-line="203" selection-start-column="25" selection-end-line="203" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java">
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveSpaces.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" selection-start-line="14" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="35">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveRepeatedCharactersI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+          <folding>
+            <element signature="e#111#112#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/string/RemoveRepeatedCharactersIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/GraphNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/Bipartite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/KthSmallestSortedMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/CheckCompleted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/bfs/LevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/Exam/One/kSmallestSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/InsertSpace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-370">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/IsBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllPermutationsI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="233">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="34" />
           <folding>
             <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/ValidParenthesesI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/GetLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="19" lean-forward="true" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/RightViewOfTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="53" column="32" lean-forward="true" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/LinkedList/ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/tree/ReverseTreeUpsideDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/CombinationsOfCoins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/dfs/AllSubSetI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="26" column="19" lean-forward="true" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/hash_table/CommonNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="611" column="24" selection-start-line="611" selection-start-column="24" selection-end-line="611" selection-end-column="24" />
+          <folding>
+            <element signature="e#24331#24332#0" expanded="true" />
+            <element signature="e#24396#24397#0" expanded="true" />
           </folding>
         </state>
       </provider>
