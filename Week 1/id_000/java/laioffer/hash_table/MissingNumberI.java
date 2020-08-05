@@ -56,6 +56,10 @@ public class MissingNumberI {
      * 2.将res与array中的每一个数字进行异或
      * 3.遍历1 ～ array.length + 1的数字，将与array异或后的结果与之异或
      * 4.返回res
+     *
+     * time = O(n)
+     *
+     * space = O(1)
      */
     public int missing1(int[] array) {
         // Write your solution here

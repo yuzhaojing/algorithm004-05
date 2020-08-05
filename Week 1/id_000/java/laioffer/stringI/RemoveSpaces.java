@@ -1,6 +1,4 @@
-package laioffer.string;
-
-import java.util.HashSet;
+package laioffer.stringI;
 
 public class RemoveSpaces {
 

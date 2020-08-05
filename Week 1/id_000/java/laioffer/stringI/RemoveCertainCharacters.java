@@ -1,9 +1,7 @@
-package laioffer.string;
+package laioffer.stringI;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
+import java.util.Set;
 
 public class RemoveCertainCharacters {
 
@@ -22,30 +20,26 @@ public class RemoveCertainCharacters {
      * 5.如果是需要删除的元素，则不用处理
      * 6.返回0～slow-1角标的元素
      *
-     * time = O(2n) = O(n)
+     * time = O(n + m)
      *
-     * space = O(1)
+     * space = O(m)
      */
     public String remove(String input, String t) {
         // Write your solution here
-        if (input == null || input.length() == 0) {
+        if (input == null || input.length() == 0 || t == null || t.length() == 0) {
             return input;
         }
 
-        HashSet<Character> set = new HashSet<>();
+        Set<Character> set = new HashSet<>();
         for (char c : t.toCharArray()) {
             set.add(c);
         }
 
         char[] array = input.toCharArray();
         int slow = 0;
-        int fast = 0;
-
-        while (fast < array.length) {
-            if (!set.contains(array[fast])) {
-                array[slow++] = array[fast++];
-            } else {
-                fast++;
+        for (int i = 0; i < array.length; i++) {
+            if (!set.contains(array[i])) {
+                array[slow++] = array[i];
             }
         }
 

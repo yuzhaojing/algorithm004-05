@@ -3,6 +3,7 @@ package laioffer.hash_table;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class CommonNumbers {
 
@@ -24,19 +25,20 @@ public class CommonNumbers {
     public List<Integer> common(int[] A, int[] B) {
         // Write your solution here
         List<Integer> res = new ArrayList<>();
-        if (A == null || A.length == 0 || B == null || B.length == 0) {
+        if (A == null || B == null || A.length == 0 || B.length == 0) {
             return res;
         }
 
-        HashMap<Integer, Integer> count = new HashMap<>();
-        for (int a : A) {
-            count.put(a, count.getOrDefault(a, 0) + 1);
+        Map<Integer, Integer> counter = new HashMap<>();
+        for (int num : A) {
+            counter.put(num, counter.getOrDefault(num, 0) + 1);
         }
 
-        for (int b : B) {
-            if (count.containsKey(b) && count.get(b) > 0) {
-                count.put(b, count.get(b) - 1);
-                res.add(b);
+        for (int num : B) {
+            Integer count = counter.get(num);
+            if (count != null && count > 0) {
+                res.add(num);
+                counter.put(num, count - 1);
             }
         }
 
