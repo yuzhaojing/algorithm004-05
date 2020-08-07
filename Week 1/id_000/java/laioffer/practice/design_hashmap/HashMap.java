@@ -26,7 +26,7 @@ public class HashMap<K, V> {
     private int size;
     private float loadFactor;
 
-    private static final int DEFAULT_CAPACITY = 2 >> 4;
+    private static final int DEFAULT_CAPACITY = 2 << 4;
     private static final float DEFAULT_LOADFACTOR = 0.75f;
     private static final float DEFAULT_SCALE_FACTOR = 2;
 

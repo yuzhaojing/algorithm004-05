@@ -8,7 +8,7 @@ public class StringReplace {
     public static void main(String[] args) {
         System.out.println(new StringReplace().replace(
                 "mozambiquemayotterussiayemeniranyemenyemenyemenguatemalayemen",
-                "yemen","naur"));
+                "yemen","nauru"));
     }
 
     /**

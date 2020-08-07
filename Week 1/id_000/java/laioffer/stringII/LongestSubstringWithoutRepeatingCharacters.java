@@ -8,7 +8,7 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
 
     public static void main(String[] args) {
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters().longest("ACBCD"));
+        System.out.println(new LongestSubstringWithoutRepeatingCharacters().longest1("abcabcbbcda"));
     }
 
     /**
@@ -44,6 +44,35 @@ public class LongestSubstringWithoutRepeatingCharacters {
             }
             maxLen = Math.max(maxLen, i - slow + 1);
             distinct.add(input.charAt(i));
+        }
+
+        return maxLen;
+    }
+
+    public int longest1(String input) {
+        // Write your solution here
+        if (input == null || input.length() == 0) {
+            return 0;
+        }
+
+        Set<Character> set = new HashSet<>();
+
+        int slow = 0;
+        int fast = 0;
+        int maxLen = 0;
+        while (fast < input.length()) {
+            char c = input.charAt(fast);
+            if (set.contains(c)) {
+                while (slow < fast) {
+                    set.remove(input.charAt(slow++));
+                    if (!set.contains(c)) {
+                        break;
+                    }
+                }
+            }
+            set.add(c);
+            maxLen = Math.max(maxLen, fast - slow + 1);
+            fast++;
         }
 
         return maxLen;

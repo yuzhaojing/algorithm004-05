@@ -39,28 +39,8 @@ public class ReOrderArray {
         return array;
     }
 
-    private void reOrder(int[] array, int left, int right) {
-        int length = right - left + 1;
-        if (length <= 2) {
-            return;
-        }
-        int mid = left + length / 2;
-        int lmid = left + length / 4;
-        int rmid = left + length * 3 / 4;
-
-        reverse(array, lmid, mid);
-        reverse(array, mid, rmid);
-        reverse(array, lmid, rmid);
-
-        // 继承左边界，右边界为2 * chunk1 - 1
-        reOrder(array, left, left + (lmid - left) * 2 - 1);
-        // 继承右边界，左边界为2 * chunk1
-        reOrder(array, left + (lmid - left) * 2, right);
-    }
-
     private void reverse(int[] array, int left, int right) {
         // [left, right)
-        right = right - 1;
         while (left < right) {
             swap(array, left++, right--);
         }
@@ -70,5 +50,30 @@ public class ReOrderArray {
         int temp = array[left];
         array[left] = array[right];
         array[right] = temp;
+    }
+
+    private void reOrder(int[] array, int left, int right) {
+        int length = right - left + 1;
+        if (length <= 2) {
+            return;
+        }
+
+        // 将数组划分为4段，记录每一段的第一个角标
+        // chunk 1 [left]
+        // chunk 2 [left + length * 1/4]
+        // chunk 2 [left + length * 1/2]
+        // chunk 2 [left + length * 3/4]
+        int leftMid = left + length * 1 / 4;
+        int mid = left + length * 1 / 2;
+        int rightMid = left + length * 3 / 4;
+
+        reverse(array, leftMid, rightMid - 1);
+        reverse(array, leftMid, mid - 1);
+        reverse(array, mid, rightMid - 1);
+
+        // 继承左边界，右边界为2 * chunk1 - 1
+        reOrder(array, left, left + 2 * (leftMid - left) - 1);
+        // 继承右边界，左边界为2 * chunk1
+        reOrder(array, left + 2 * (leftMid - left), right);
     }
 }

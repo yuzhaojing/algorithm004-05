@@ -3,7 +3,7 @@ package laioffer.stringII;
 public class DecompressStringII {
 
     public static void main(String[] args) {
-        System.out.println(new DecompressStringII().decompress2("x2y0i0z3"));
+        System.out.println(new DecompressStringII().decompress1("x2y0i0z3"));
     }
 
     /**
@@ -11,9 +11,9 @@ public class DecompressStringII {
      * 1.数字的长度大于一位
      * 2.inplace的方法和StringBuilder的方法
      * 3.如果将数字字符转成int(可能是多位数字字符 exam: ['1', '2', '3'] -> 123)
-     *
+     * <p>
      * time = O(n)
-     *
+     * <p>
      * space = O(n)
      */
     public String decompress(String input) {
@@ -46,19 +46,37 @@ public class DecompressStringII {
         return new String(result);
     }
 
-    // StringBuilder版本
+    /**
+     * StringBuilder版本
+     *
+     * time = O(n)
+     *
+     * space = O(n)
+     */
     public String decompress1(String input) {
         // Write your solution here
-        if (input == null || input.length() <= 1) {
+        if (input == null || input.length() == 0) {
             return input;
         }
 
-        char[] array = input.toCharArray();
         StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < array.length; i++) {
-            if (!Character.isDigit(array[i])) {
-                char c = array[i++];
-                for (int j = 0; j < getDigit(array[i]); j++) {
+        int fast = 0;
+
+        while (fast < input.length()) {
+            // 每次将字符连同后面的数字一起处理，如果数据符合要求不会出现等于数字的情况
+            // 如果出现了就忽略，此处可以和面试官交流
+            if (!Character.isDigit(input.charAt(fast))) {
+                // 记录这次需要处理字符
+                char c = input.charAt(fast++);
+                // 记录数字开始的角标
+                int begin = fast;
+
+                while (fast < input.length() && Character.isDigit(input.charAt(fast))) {
+                    fast++;
+                }
+
+                int digit = getDigit(input, begin, fast - 1);
+                for (int i = 0; i < digit; i++) {
                     sb.append(c);
                 }
             }
@@ -67,31 +85,14 @@ public class DecompressStringII {
         return sb.toString();
     }
 
-    // 考虑数字大于个位数
-    public String decompress2(String input) {
-        // Write your solution here
-        if (input == null || input.length() <= 1) {
-            return input;
+    private int getDigit(String input, int begin, int end) {
+        int res = 0;
+        for (int i = end; i >= begin; i--) {
+            int digit = input.charAt(i) - '0';
+            res += (digit * (int) Math.pow(10, end - i));
         }
 
-        char[] array = input.toCharArray();
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < array.length; i++) {
-            if (!Character.isDigit(array[i])) {
-                char c = array[i++];
-                StringBuilder digits = new StringBuilder();
-                while (i < array.length && Character.isDigit(array[i])) {
-                    digits.append(array[i++]);
-                }
-                i--;
-                int digit = getDigit(digits.toString().toCharArray());
-                for (int j = 0; j < digit; j++) {
-                    sb.append(c);
-                }
-            }
-        }
-
-        return sb.toString();
+        return res;
     }
 
     private int getDigit(char digit) {
@@ -101,8 +102,7 @@ public class DecompressStringII {
     private int getDigit(char[] digits) {
         int digit = 0;
         for (int i = digits.length - 1; i >= 0; i--) {
-            double a = Math.pow(10, digits.length - 1 - i);
-            digit += (getDigit(digits[i]) * (int)(Math.pow(10, digits.length - 1 - i)));
+            digit += (getDigit(digits[i]) * (int) (Math.pow(10, digits.length - 1 - i)));
         }
         return digit;
     }
