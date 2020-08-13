@@ -1,14 +1,15 @@
 package laioffer.stringII;
 
 import java.util.ArrayDeque;
+import java.util.Deque;
 import java.util.Queue;
 
 public class StringReplace {
 
     public static void main(String[] args) {
-        System.out.println(new StringReplace().replace(
+        System.out.println(new StringReplace().replace1(
                 "mozambiquemayotterussiayemeniranyemenyemenyemenguatemalayemen",
-                "yemen","nauru"));
+                "yemen","nauruu"));
     }
 
     /**
@@ -93,6 +94,97 @@ public class StringReplace {
             }
             // 返回的时候，在slow左侧不包括slow的都是需要返回的结果
             return new String(inputArray, 0, slow);
+        }
+    }
+
+    /**
+     * 全部使用inplace做法
+     */
+    public String replace1(String input, String source, String target) {
+        // Write your solution here
+        if (input == null || input.length() == 0 || source == null || target == null) {
+            return input;
+        }
+
+        char[] array = input.toCharArray();
+        char[] sourceArray = source.toCharArray();
+        char[] targetArray = target.toCharArray();
+        Deque<Integer> indices = new ArrayDeque<>();
+
+        // 原数组长度不会增大
+        if (sourceArray.length >= targetArray.length) {
+            for (int i = 0; i <= array.length - sourceArray.length; i++) {
+
+                // 检查是否是子串
+                boolean isMatch = true;
+                for (int j = 0; j < sourceArray.length; j++) {
+                    if (array[i + j] != sourceArray[j]) {
+                        isMatch = false;
+                    }
+                }
+
+                // 如果是子串则放进队列中
+                if (isMatch) {
+                    indices.offer(i);
+                }
+            }
+
+            // slow: slow的左边不包含slow都是要返回的结果
+            // fast: 当fast的角标不是子串起点的时候，copy元素到slow
+            //       当fast的角标是子串起点的时候，将target copy到slow，然后将fast移动sourceArray.length
+            int slow = 0;
+            int fast = 0;
+            while (fast < array.length) {
+                if (indices.peek() != null && fast == indices.peek()) {
+                    for (char t : targetArray) {
+                        array[slow++] = t;
+                    }
+                    fast += sourceArray.length;
+                    indices.poll();
+                } else {
+                    array[slow++] = array[fast++];
+                }
+            }
+
+            return new String(array, 0, slow);
+        } else {
+            for (int i = 0; i <= array.length - sourceArray.length; i++) {
+                boolean isMatch = true;
+                for (int j = 0; j < sourceArray.length; j++) {
+                    if (array[i + j] != sourceArray[j]) {
+                        isMatch = false;
+                    }
+                }
+
+                // 此时应该放入栈中，使用deque模拟
+                if (isMatch) {
+                    indices.offerFirst(i + sourceArray.length - 1);
+                }
+            }
+
+            // 计算新的数组长度，并创建新数组
+            int newLength = array.length + (targetArray.length - sourceArray.length) * indices.size();
+            char[] res = new char[newLength];
+
+            // slow: slow的右边不包含slow都是要返回的结果
+            // fast: 当fast的角标不是子串终点的时候，copy元素到slow
+            //       当fast的角标是子串终点的时候，将target copy到slow，然后将fast移动sourceArray.length
+            int slow = newLength - 1;
+            int fast = array.length - 1;
+            while (fast >= 0) {
+                if (indices.peekFirst() != null && indices.peekFirst() == fast) {
+                    // 由于slow是从右往左移动，所以copy的时候需要将target倒过来
+                    for (int i = targetArray.length - 1; i >= 0; i--) {
+                        res[slow--] = targetArray[i];
+                    }
+                    fast -= sourceArray.length;
+                    indices.pollFirst();
+                } else {
+                    res[slow--] = array[fast--];
+                }
+            }
+
+            return new String(res);
         }
     }
 }

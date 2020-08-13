@@ -10,6 +10,15 @@ public class SpiralOrderTraverseII {
         System.out.println(new SpiralOrderTraverseII().spiral(matrix));
     }
 
+    /**
+     * 递归
+     * 这是一个尾递归，所有的尾递归都可以转换为迭代
+     *
+     * time = O(n * m)
+     * 每一个节点都遍历一遍，并以O(1)的时间复杂度加入list中
+     *
+     * space = O(Max(n, m))
+     */
     public List<Integer> spiral(int[][] matrix) {
         // Write your solution here
         List<Integer> res = new ArrayList<>();
@@ -35,7 +44,7 @@ public class SpiralOrderTraverseII {
 
         if (colSize == 1) {
             for (int i = 0; i < rowSize; i++) {
-                res.add(matrix[offset + i][offset + colSize - 1]);
+                res.add(matrix[offset + i][offset]);
             }
             return;
         }

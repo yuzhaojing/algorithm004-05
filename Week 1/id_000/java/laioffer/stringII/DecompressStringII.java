@@ -59,24 +59,23 @@ public class DecompressStringII {
             return input;
         }
 
+        char[] array = input.toCharArray();
         StringBuilder sb = new StringBuilder();
         int fast = 0;
 
-        while (fast < input.length()) {
+        while (fast < array.length) {
             // 每次将字符连同后面的数字一起处理，如果数据符合要求不会出现等于数字的情况
             // 如果出现了就忽略，此处可以和面试官交流
-            if (!Character.isDigit(input.charAt(fast))) {
+            if (!Character.isDigit(array[fast])) {
                 // 记录这次需要处理字符
-                char c = input.charAt(fast++);
-                // 记录数字开始的角标
-                int begin = fast;
+                char c = array[fast++];
 
-                while (fast < input.length() && Character.isDigit(input.charAt(fast))) {
-                    fast++;
+                int num = 0;
+                while (fast < array.length && Character.isDigit(array[fast])) {
+                    num = num * 10 + (array[fast++] - '0');
                 }
 
-                int digit = getDigit(input, begin, fast - 1);
-                for (int i = 0; i < digit; i++) {
+                for (int i = 0; i < num; i++) {
                     sb.append(c);
                 }
             }

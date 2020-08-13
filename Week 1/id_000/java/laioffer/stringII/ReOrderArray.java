@@ -61,19 +61,26 @@ public class ReOrderArray {
         // 将数组划分为4段，记录每一段的第一个角标
         // chunk 1 [left]
         // chunk 2 [left + length * 1/4]
-        // chunk 2 [left + length * 1/2]
-        // chunk 2 [left + length * 3/4]
-        int leftMid = left + length * 1 / 4;
-        int mid = left + length * 1 / 2;
-        int rightMid = left + length * 3 / 4;
+        // chunk 3 [left + length * 1/2]
+        // chunk 4 [left + length * 3/4]
+        // 由于调用前去除了奇数的情况，length必定为偶数
+        // 所以将mid设置为后半段的起点，此位置为length / 2
+        int mid = left + length / 2;
+        // 当mid左边的元素还剩偶数个的时候，复制之前mid的做法，即left + (length / 2) / 2 = left + length / 4
+        // 当mid左边的元素还剩奇数个的时候，此时取中点
+        int lmid = left + length / 4;
+        // 当mid左边的元素还剩偶数个的时候，同上
+        // 当mid左边的元素还剩奇数个的时候，为了保证chunk1和chunk3的数量一致，所以
+        // rmid = mid + lmid - left = left + length / 2 + left + length / 4 - left = left + length * 3 / 4
+        int rmid = left + length * 3 / 4;
 
-        reverse(array, leftMid, rightMid - 1);
-        reverse(array, leftMid, mid - 1);
-        reverse(array, mid, rightMid - 1);
+        reverse(array, lmid, rmid - 1);
+        reverse(array, lmid, mid - 1);
+        reverse(array, mid, rmid - 1);
 
         // 继承左边界，右边界为2 * chunk1 - 1
-        reOrder(array, left, left + 2 * (leftMid - left) - 1);
+        reOrder(array, left, left + 2 * (lmid - left) - 1);
         // 继承右边界，左边界为2 * chunk1
-        reOrder(array, left + 2 * (leftMid - left), right);
+        reOrder(array, left + 2 * (lmid - left), right);
     }
 }

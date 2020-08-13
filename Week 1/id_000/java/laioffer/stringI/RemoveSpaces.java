@@ -31,11 +31,13 @@ public class RemoveSpaces {
         int fast = 0;
 
         while (fast < array.length) {
+            // 排除反例，将不用copy的情况列出来
+            // 当前指针指向空格的时候，如果该指针指向0或者=该指针的前一位是空格，那么不copy
             if (array[fast] == ' ' && (fast == 0 || array[fast - 1] == ' ')) {
                 fast++;
-                continue;
+            } else {
+                array[slow++] = array[fast++];
             }
-            array[slow++] = array[fast++];
         }
 
         // 确认有元素并且对最后一个元素进行处理，如果为空格就删除
