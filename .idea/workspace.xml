@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1ee54e1-4904-4906-92ab-20c17127caaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingI/DictionaryWordI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingI/DictionaryWordI.java" afterDir="false" />
-    </list>
+    <list default="true" id="c1ee54e1-4904-4906-92ab-20c17127caaa" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,21 +36,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/LongestSubstringWithoutRepeatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1094">
+            <state relative-caret-position="1518">
               <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
             </state>
           </provider>
@@ -63,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingI/DictionaryWordI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/AllAnagrams.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-521">
+            <state relative-caret-position="88">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
@@ -84,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/AllPermutationsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-194">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="638">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/ReOrderArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-195">
-              <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+            <state relative-caret-position="1276">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -105,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/RightShiftByNCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+            <state relative-caret-position="946">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -114,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingII/EditDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="946">
               <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
               <folding>
                 <element signature="e#112#113#0" expanded="true" />
@@ -127,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringI/RemoveRepeatedCharactersIV.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
+            <state relative-caret-position="638">
               <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
@@ -136,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/LongestSubarrayContainsOnly1s.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="550">
               <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
             </state>
           </provider>
@@ -262,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -272,99 +255,20 @@
             </path>
             <path>
               <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="DFSII" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammingI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicProgrammingII" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="stringI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="stringII" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm004-05" type="462c0819:PsiDirectoryNode" />
-              <item name="Week 1" type="462c0819:PsiDirectoryNode" />
-              <item name="id_000" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="laioffer" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm004-05" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598239458098" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1598251580428" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -517,11 +421,12 @@
       <workItem from="1597587411948" duration="3893000" />
       <workItem from="1597625097067" duration="14086000" />
       <workItem from="1598230229162" duration="1840000" />
+      <workItem from="1598250914149" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530834000" />
+    <option name="totallyTimeSpent" value="531110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -534,9 +439,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4939759" visible="true" weight="0.26824033" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4939759" visible="true" weight="0.27181688" />
       <window_info id="Structure" order="1" sideWeight="0.5060241" side_tool="true" weight="0.24391988" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -552,7 +456,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.40963855" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.40963855" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32891566" />
@@ -910,9 +814,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/.workspace.xml.swp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.workspace.xml.swp" />
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingII/LargestSquareOf1s.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -948,41 +850,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="95" selection-start-line="9" selection-start-column="95" selection-end-line="9" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/LongestSubarrayContainsOnly1s.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/Test.java" />
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/LongestSubstringWithoutRepeatingCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1094">
+        <state relative-caret-position="1518">
           <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/AllAnagrams.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-521">
+        <state relative-caret-position="88">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/AllPermutationsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+        <state relative-caret-position="638">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -991,28 +877,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/ReOrderArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-195">
-          <caret line="58" column="9" lean-forward="true" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+        <state relative-caret-position="1276">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/RightShiftByNCharacters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringI/RemoveRepeatedCharactersIV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        <state relative-caret-position="946">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingII/EditDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="946">
           <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
           <folding>
             <element signature="e#112#113#0" expanded="true" />
@@ -1021,10 +900,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringI/RemoveRepeatedCharactersIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/stringII/LongestSubarrayContainsOnly1s.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Week 1/id_000/java/laioffer/DynamicProgrammingI/DictionaryWordI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="53" column="37" lean-forward="true" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="37" />
+        <state relative-caret-position="330">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
