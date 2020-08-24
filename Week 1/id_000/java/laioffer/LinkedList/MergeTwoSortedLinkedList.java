@@ -39,12 +39,14 @@ public class MergeTwoSortedLinkedList {
 
         // 循环结束后一定有一个链表中还有元素
         // 一下两个判断只会进入一个，所以cur不需要移动了
-        if (one != null) {
+        while (one != null) {
             cur.next = one;
+            one = one.next;
         }
 
-        if (two != null) {
+        while (two != null) {
             cur.next = two;
+            two = two.next;
         }
 
         return dummy.next;

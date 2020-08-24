@@ -22,7 +22,7 @@ public class InsertSortedLinkedList {
         ListNode cur = head;
 
         while (cur != null) {
-            if (cur.value < value && (cur.next == null || cur.next.value >= value)) {
+            if (cur.next == null || (cur.value < value && cur.next.value >= value)) {
                 target.next = cur.next;
                 cur.next = target;
                 return head;
