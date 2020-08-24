@@ -32,15 +32,9 @@ public class ArrayHopperI {
         // 从倒数第二个数开始遍历，看看所能跳跃的范围内是否有true
         // 如果有true则该值为true，否则为false
         for (int i = M.length - 2; i >= 0; i--) {
-            // 从i这个角标能跳到的最远距离
-            int index = i + array[i];
-            // 如果到达或者超过数组的最后一个元素了，说明可以直接跳到终点
-            if (index >= M.length - 1) {
-                M[i] = true;
-            }
-            // 否则遍历[j, index]，看有没有标记为true的元素
-            // 如果有那么说明当前位置可以通过搭桥的方式跳到最后一个元素
-            for (int j = i; j <= index; j++) {
+            // 遍历[i + 1, i + array[i]]，不需要考虑i + array[i] > array.length - 1的问题
+            // 因为array.length - 1的值一定为true，最多到这里就会break出去
+            for (int j = i; j <= i + array[i]; j++) {
                 if (M[j]) {
                     M[i] = true;
                     break;
