@@ -2,7 +2,6 @@ package laioffer.DFSII;
 
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FactorCombinations {
@@ -43,33 +42,27 @@ public class FactorCombinations {
     }
 
     private void combinations(int target, int index, List<Integer> factors, List<Integer> cur, List<List<Integer>> res) {
-        if (factors.size() - 1 == index) {
-            int factor = factors.get(factors.size() - 1);
-            if (target % factor == 0) {
-                for (int j = 1; j <= target % factor; j++) {
-                    cur.add(factor);
-                }
+        if (factors.size() == index) {
+            if (target == 1) {
                 res.add(new ArrayList<>(cur));
-                for (int j = 1; j <= target % factor; j++) {
-                    cur.remove(cur.size() - 1);
-                }
             }
             return;
         }
 
-        for (int i = 0; i <= target / factors.get(index); i++) {
-            if (i != 0) {
-                for (int j = 1; j <= i; j++) {
-                    cur.add(factors.get(index));
-                }
-                target /= (i * factors.get(index));
-            }
+        // 不选这个公因数
+        combinations(target, index + 1, factors, cur, res);
+
+        int factor = factors.get(index);
+        int size = cur.size();
+        // 当target还能被factor除尽的时候，进行循环
+        while (target % factor == 0) {
+            // 每次循环往cur中add一个factor
+            cur.add(factor);
+            target /= factor;
             combinations(target, index + 1, factors, cur, res);
-            if (i != 0) {
-                for (int j = 1; j <= i; j++) {
-                    cur.remove(cur.size() - 1);
-                }
-            }
         }
+
+        // 删除cur中的记录
+        cur.subList(size, cur.size()).clear();
     }
 }

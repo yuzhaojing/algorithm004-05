@@ -17,8 +17,8 @@ public class AllPermutationsII {
      * time = O(n! * n)
      * 剪枝不会降低时间复杂度的upper bound，lower bound太难计算，暂时不管
      *
-     * space = O(n! * n)
-     * 每个node都有几个hashset，所以一共是n!个node
+     * space = O(n^2)
+     * 每层一个hashset，共用n层
      * 每个hashset最坏存n个元素
      */
     public List<String> permutations(String input) {
