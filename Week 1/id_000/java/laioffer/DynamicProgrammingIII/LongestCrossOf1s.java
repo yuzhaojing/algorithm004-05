@@ -7,12 +7,23 @@ public class LongestCrossOf1s {
     }
 
     /**
+     * 假设：matrix != null && matrix.length > 0 && matrix[0].length > 0
+     * 如果不符合假设，那么matrix中将不存在元素，自然也不会存在符合题意的解，暂定返回0
+     * high level: 使用二维DP解答
+     * mid level: linear scan回头看，将二维DP看成每个方向4个一维DP，一共16个一维DP的组
+     *            每个一维DP就是连续最长1的问题，最后合并求每个点的最小值
+     *  1、M[i][j]表示在该坐标的上下左右四个方向的连续最长1的最小值
+     *  2、base case: 在四个方向都是连续最长1的base case
+     *  3、induction rule: 在四个方向都是连续最长1的induction rule
+     *
      * time = O(n^2)
      * 分析: leftUp和rightDown内部都是一个n^2的循环加上一个merge
      * merge的时间复杂度也是n^2，但是这两个部分是并行执行的
      * 所以total time = n^2(leftUp上半部分) + n^2(leftUp merge) +
      * n^2(rightDown上半部分) + n^2(rightDown merge) +
      * n^2(leftUp和rightDown merge) = O(5 * n^2) = O(n^2)
+     *
+     * space = O(n^2)
      */
     public int largest(int[][] matrix) {
         // Write your solution here
