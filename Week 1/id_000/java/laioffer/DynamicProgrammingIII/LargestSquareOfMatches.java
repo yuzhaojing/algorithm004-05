@@ -6,8 +6,22 @@ public class LargestSquareOfMatches {
 
     }
 
-    // time = O(n^3)
-    // space = O(n^2)
+    /**
+     * 假设：matrix != null && matrix.length > 0 && matrix[0].length > 0
+     * 如果不符合假设条件，matrix内没有元素，则返回值必然为0
+     * high level: 使用二维DP解答
+     * mid level: 使用两个二维DP，存储最长连续1。
+     *            因为我们只能知道右侧和下侧节点是否与当前节点相连，所以从右侧和下侧计算连续最长1
+     *  1、right[i][j]表示在当前行，从右到左以当前坐标为终点的右侧有几个连接的点
+     *     down[i][j]表示在当前行，从下到上以当前坐标为终点的下侧有几个连接的点
+     *  2、base case: right[i][cols - 1] = 0  down[i][j] = down[rows - 1][j] = 0;
+     *  3、induction rule:
+     *       if (matrix[i][j] == 1) right[i][j] = right[i][j + 1] + 1
+     *       if (matrix[i][j] == 2) down[i][j] = down[i + 1][j] + 1
+     *       if (matrix[i][j] == 3) both of 1 and 2
+     * time = O(n^3)
+     * space = O(n^2)
+     */
     public int largestSquareOfMatches(int[][] matrix) {
         // Write your solution here
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
