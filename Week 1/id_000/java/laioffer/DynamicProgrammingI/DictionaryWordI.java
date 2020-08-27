@@ -12,11 +12,15 @@ public class DictionaryWordI {
 
 
     /**
-     * 使用dp求一个数组能否从初始点跳跃到终点
-     *
-     * time = O(n^3)
-     * substring time = O(n)
-     *
+     * 假设：input != null && dict != null
+     * 如果不符合假设，那么要么无法切割，要么无法匹配，最后都不能找到解，所以返回false
+     * high level: 使用一维DP解答
+     * mid level: linear scan回头看，每次回头看之前记录的所有字符长度的情况
+     *  1、M[i]表示输入的字符串是input的前i个字符的时候，是否能被切割成都是字典内的单词
+     *  2、base case: M[0] = true (这里可以和面试官商量，如果““要比较的话，后面切割的时候就应该不考虑空串的情况)
+     *  3、inductin rule: M[i] = for j in [0, i)
+     *                       M[j] && (input.substring(j, i) is in dict)
+     * time = O(n^2)
      * space = O(n)
      */
     public boolean canBreak(String input, String[] dict) {

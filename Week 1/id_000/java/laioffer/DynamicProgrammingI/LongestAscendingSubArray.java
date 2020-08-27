@@ -7,12 +7,16 @@ public class LongestAscendingSubArray {
     }
 
     /**
-     * 使用dp计算最大上升子串
-     * dp数组每一个元素代表包含array当前角标元素的最大上升子串
-     *
+     * 假设：array != null && array.length > 0
+     * 如果不符合假设，那么数组中没有元素，结果只能为0
+     * high level: 使用一维DP解答
+     * mid level: linear scan回头看，每次看前面一个元素
+     *  1、M[i]表示在[0, i]这个区间内，以array[i]这个元素作为结尾的连续最长上升子数组
+     *  2、base case: M[0] = 1
+     *  3、induction rule: if (M[i] > M[i - 1]) M[i] = M[i - 1] + 1
+     *                     else                 M[i] = 1
      * time = O(n)
-     *
-     * space = O(n)
+     * space = O(1) 由于回头看的个数为常数，可以用变量存储
      */
     public int longest(int[] array) {
         // Write your solution here

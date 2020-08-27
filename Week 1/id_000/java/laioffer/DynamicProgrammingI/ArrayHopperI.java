@@ -9,10 +9,15 @@ public class ArrayHopperI {
 
 
     /**
-     * 使用dp求一个数组能否从初始点跳跃到终点
-     *
+     * 假设：array != null && array.length > 0
+     * 如果不符合假设，那么需要和面试官讨论，是算true还是false，暂定false
+     * high level: 使用一维DP进行解答
+     * mid level: linear scan回头看，每次回头看能跳跃到的所有的情况
+     *  1、M[i]表示从array[i]能否跳到最后一个元素
+     *  2、base case: M[array.length - 1] = true
+     *  3、induction rule: M[i] = for j in (i, i + array[i]]
+     *                            if any M[j] == true then M[i] = true
      * time = O(n^2)
-     *
      * space = O(n)
      */
     public boolean canJump(int[] array) {

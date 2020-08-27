@@ -7,12 +7,18 @@ public class MaxProductOfCuttingRope {
         System.out.println(new MaxProductOfCuttingRope().maxProductBetter(40));
     }
 
-
     /**
-     * 使用dp求最大乘积
-     *
+     * 假设：length >= 2
+     * 如果不符合假设，无法将绳子切成两段，暂定返回0
+     * high level: 使用一维DP解答
+     * mid level: linear scan回头看，每次需要看全部的元素
+     *            每次切分的时候分成左大段，右小段
+     *            左大段通过历史的计算获取，右小段为不可分割的部分
+     *  1、M[i]表示绳子长度为i的时候，切出的最大乘积
+     *  2、base case: M[0] = 0, M[1] = 0
+     *  3、induction rule: M[i] = for j in [1, i)
+     *                            Max(j, M[j]) * (i - j)
      * time = O(n^2)
-     *
      * space = O(n)
      */
     public int maxProductBetter(int length) {

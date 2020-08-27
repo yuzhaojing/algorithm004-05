@@ -7,19 +7,23 @@ public class EditDistance {
     }
 
     /**
-     * 使用DP的方式解答
-     * base case:
-     *  建立一个二维dp数组，长度比输入字符串长度大1
-     *  在横轴或纵轴角标为0的位置上，初始化对应的需要修改次数
-     * induction rule:
-     *  one.charAt(i - 1) == two.charAt(j - 1) M[i][j] = M[i - 1][j - 1]
-     *  说明此时两个字符串的对应字符相等，可以不用修改，直接进行下一对字符的比较
-     *  else M[i][j] = 1 + Math.min(Math.min(M[i - 1][j], M[i][j - 1]), M[i - 1][j - 1])
-     *  次数字符不相等，则需要进行一次操作，然后看哪次操作更加快速
-     *
-     *  二维数组的填写顺序必须从上到下，从左到右
-     *  因为M[i][j] 依赖于 M[i - 1][j]、M[i][j - 1]、M[i - 1][j - 1]
-     *  而这三个元素都位于M[i][j]的左方或者上方
+     * 假设: one != null && two != null
+     * 如果不符合假设，那么对字符串左任何操作都无法把字符串变成null
+     * high level: 使用二维DP解答
+     * mid level: 由于有三种操作方式，在以string one为参照的情况下
+     *            insert：在string one的头部插入和string two的头部一样的字符
+     *                    那么这个字符后面就可以不需要考虑了，可以理解成one的所有字符和two的后续字符进行匹配
+     *            delete：one的头部删除一个字符，可以理解成one的后续字符和two的所有字符进行匹配
+     *            replace one的头部元素替换成和string two的头部一样的字符
+     *                    那么这个字符后面就可以不需要考虑了，可以理解成one的后续字符和two的后续字符进行匹配
+     *  1、M[i][j]表示从string one的前i个字符匹配成string two的前j个字符需要花费的最少次数
+     *  2、base case: M[0][0] = 0, M[0][j] = j, M[i][0] = i
+     *  3、induction rule: M[i][j] = if (one.charAt(i - 1) == two.charAt(j - 1))
+     *                               M[i - 1][j - 1] (当两个字符本身相等的时候，不需要操作，直接比较后续字符)
+     *                               else
+     *                               Min(M[i - 1][j], M[i][j - 1], M[i - 1][j - 1]) + 1 (比较三种方式的最少次数，然后加上这次操作)
+     * time = O(n^2) // 枚举i和j
+     * space = O(n^2) // 二维DP数组
      */
     public int editDistanceDp(String one, String two) {
         // Write your solution here
