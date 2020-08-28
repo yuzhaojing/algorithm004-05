@@ -18,6 +18,7 @@ public class QuizLargestSubArraySum {
      *  1、M[i]表示从[0, i]并且以array[i]作为最后一记录每次更新globalMax的时候的左右偏移量个元素的最大子数组和
      *  2、base case: M[0] = array[0]
      *  3、induction rule: M[i] = M[i - 1] < 0 ? array[i] : M[i - 1] + array[i]
+     *
      * time = O(n)
      * space = O(1) 由于回头看的个数为常数，可以用变量存储
      */

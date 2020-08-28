@@ -9,6 +9,7 @@ public class EditDistance {
     /**
      * 假设: one != null && two != null
      * 如果不符合假设，那么对字符串左任何操作都无法把字符串变成null
+     *
      * high level: 使用二维DP解答
      * mid level: 由于有三种操作方式，在以string one为参照的情况下
      *            insert：在string one的头部插入和string two的头部一样的字符
@@ -22,6 +23,7 @@ public class EditDistance {
      *                               M[i - 1][j - 1] (当两个字符本身相等的时候，不需要操作，直接比较后续字符)
      *                               else
      *                               Min(M[i - 1][j], M[i][j - 1], M[i - 1][j - 1]) + 1 (比较三种方式的最少次数，然后加上这次操作)
+     *
      * time = O(n^2) // 枚举i和j
      * space = O(n^2) // 二维DP数组
      */

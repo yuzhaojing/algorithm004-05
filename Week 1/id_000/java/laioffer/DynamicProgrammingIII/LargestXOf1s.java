@@ -9,6 +9,7 @@ public class LargestXOf1s {
     /**
      * 假设：matrix != null && matrix.length > 0 && matrix[0].length > 0
      * 如果不符合假设条件，matrix内没有元素，则返回值必然为0
+     *
      * high level: 使用二维DP解答
      * mid level: 使用两个二维DP，存储最长连续1。
      *             left存储从左上到右下的连续最长1，up存储从右上到左下的连续最长1
@@ -20,6 +21,7 @@ public class LargestXOf1s {
      *                up[0][cols - 1] = matrix[0][cols - 1]   down[rows - 1][0] = matrix[rows - 1][0]
      *  3、induction rule: left[i][j] = left[i - 1][j - 1] + 1  right[i][j] = right[i + 1][j + 1] + 1
      *                     up[i][j] = up[i - 1][j + 1] + 1      down[i][j] = down[i + 1][j - 1] + 1
+     *
      * time = O(n^2)
      * space = O(n^2)
      */

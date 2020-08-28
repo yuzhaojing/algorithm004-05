@@ -13,12 +13,14 @@ public class ArrayHopperII {
     /**
      * 假设：array != null && array.length > 0
      * 如果不符合假设，那么需要和面试官讨论，是算0还是-1，暂定0
+     *
      * high level: 使用一维DP进行解答
      * mid level: linear scan回头看，每次回头看能跳跃到的所有的情
      *  1、M[i]表示从array[i]跳到最后一个元素所需要的最少步数
      *  2、base case: M[array.length - 1] = 0
      *  3、induction rule: M[i] = for j in (i, i + array[i]]
      *                            if (M[j] != -1) then Min(M[j])
+     *
      * time = O(n^2)
      * space = O(n)
      */

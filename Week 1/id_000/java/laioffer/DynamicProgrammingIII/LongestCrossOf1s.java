@@ -9,6 +9,7 @@ public class LongestCrossOf1s {
     /**
      * 假设：matrix != null && matrix.length > 0 && matrix[0].length > 0
      * 如果不符合假设，那么matrix中将不存在元素，自然也不会存在符合题意的解，暂定返回0
+     *
      * high level: 使用二维DP解答
      * mid level: linear scan回头看，将二维DP看成每个方向4个一维DP，一共16个一维DP的组
      *            每个一维DP就是连续最长1的问题，最后合并求每个点的最小值
