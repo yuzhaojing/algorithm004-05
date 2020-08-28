@@ -10,23 +10,22 @@ public class AllValidPermutationsOfParenthesesII {
     }
 
     /**
-     * 假设 l >= 0 && m >= 0 && n >= 0
-     * 如果任意一个括号的对数小于0，无法确定-1对括号怎么进行放置
-     *
-     * high level: 使用DFS进行解答
-     * mid level:
-     *  1、使用一个stack存储已经放置的括号
-     *  2、每次放置一个右括号，需要先和栈顶的括号进行匹配，如果不匹配则不能放
-     *
-     * time = O(6^(2l + 2m + 2n) * n)
-     * 每层最多有6个分叉，一共2l + 2m + 2n层
-     * 最后一层需要花费O(n)的时间进行copy
-     *
-     * space = O(2l + 2m + 2n)) = O(l + m + n)
-     *
-     * heap: stack最多存储所有的左括号，即O(l + m + n)
-     *       PS和remain数组都是定长，和传入数值无关，可以当成O(1)
-     * call stack: 递归最多2l + 2m + 2n层，即O(2(l + m + n))
+     * input: l int (小括号对数)
+     *        m int (尖括号对数)
+     *        n int (大括号对数)
+     * output: List<String> (返回有效的括号集合)
+     * 假设：l >= 0 && m >= 0 && n >= 0
+     * 如果不符合假设，则有括号的对数是负数的时候，无法拼凑括号，返回空list
+     * high level: 使用DFS的生成有效括号方案解答
+     * mid level: 在之前的方案之上，加一个stack，用于保存未匹配的括号。放入右括号的时候，只有和栈顶左括号匹配上才能放入。
+     *  1、recursion tree 最多有多少层？            2l + 2m + 2n
+     *  2、recursion tree 每个node最多有几种case？  最多有6种case
+     * time = O(6^(2l + 2m + 2n))
+     * space = O(2l + 2m + 2n) = O(l + m + n)
+     * heap: stack (2l + 2m + 2n)
+     *       stringBuilder (2l + 2m + 2n)
+     *       PS、remain O(1)
+     * call stack: O(2l + 2m + 2n)
      */
     public List<String> validParentheses(int l, int m, int n) {
         // Write your solution here

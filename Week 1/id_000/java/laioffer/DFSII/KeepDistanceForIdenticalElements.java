@@ -1,8 +1,5 @@
 package laioffer.DFSII;
 
-
-import java.util.*;
-
 public class KeepDistanceForIdenticalElements {
 
     public static void main(String[] args) {
@@ -10,17 +7,18 @@ public class KeepDistanceForIdenticalElements {
     }
 
     /**
+     * input: k int (表示需要将1～k这些数，每个一对放入int[])
+     * output: int[] (返回放置好的结果集)
      * 假设：k > 0
-     * 如果k <= 0，那么没有有效解，暂定都返回null
+     * 如果不符合假设，则没有符合要求的数，返回null
      *
-     * high level: 使用DFS来的permutation方案进行解答
-     * (如果给定元素全部出现在结果中，只是顺序不一样，用permutation方案)
-     * mid level: 共有多少层 - k层 | 每层几个叉 - 最多2k - 1个叉
-     *  1、建立一个大小为2k的数组
-     *  2、从k开始枚举放法
+     * high level: 使用DFS的permutation方案解答
+     * mid level: 从1开始遍历到array.length - 1 - (k + 1)，每次放一对括号
+     *  1、recursion tree 最多有多少层？            k对数，每次放一对数，一共k层
+     *  2、recursion tree 每个node最多有几种case？  最多有2k - 1种case
      *
-     * time = O(k^2k)
-     * space = O(2k) + O(k) = O(k)
+     * time = O(k^(2k - 1))
+     * space = O(k)
      */
     public int[] keepDistance(int k) {
         // Write your solution here.

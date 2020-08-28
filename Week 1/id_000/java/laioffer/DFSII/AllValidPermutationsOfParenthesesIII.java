@@ -9,27 +9,27 @@ public class AllValidPermutationsOfParenthesesIII {
         System.out.println(new AllValidPermutationsOfParenthesesIII().validParenthesesIII(1, 1, 0));
     }
 
-    // 假设：l >= 0 && m >= 0 && n >= 0
-    // 如果这三个参数有一个小于0，那么-1对括号无法表示，所以暂定返回空list
-
-    // high level: 使用DFS中的生成有效括号的方法解决
-    // mid level: 每层最多几个叉 - 6个 / 共有多少层 - 2(l + m + n)
-    //  1、使用一个stack记录放入的左括号
-    //  2、加左括号的时候，确认栈顶的元素是优先级大于自己的左括号
-    //  3、加右括号的时候，确认栈顶元素是对应的左括号
-
     /**
+     * input: l int (小括号对数)
+     *        m int (尖括号对数)
+     *        n int (大括号对数)
+     * output: List<String> (返回有效的括号集合)
      * 假设：l >= 0 && m >= 0 && n >= 0
-     * 如果这三个参数有一个小于0，那么-1对括号无法表示，所以暂定返回空list
-     * high level: 使用DFS中的生成有效括号的方法解决
-     * mid level: 每层最多几个叉 - 6个 / 共有多少层 - 2(l + m + n)
-     *  1、使用一个stack记录放入的左括号
-     *  2、加左括号的时候，确认栈顶的元素是优先级大于自己的左括号
-     *  3、加右括号的时候，确认栈顶元素是对应的左括号
+     * 如果不符合假设，则有括号的对数是负数的时候，无法拼凑括号，返回空list
      *
-     * time = O(2^n * n)
-     * space = O(l + m + n)
-     * PS、remain、map存储的数据大小都是常量，space = O(1)
+     * high level: 使用DFS的生成有效括号方案解答
+     * mid level: 在之前的方案之上，加一个stack，用于保存未匹配的括号。放入右括号的时候，只有和栈顶左括号匹配上才能
+     *            还需要加一个优先级的概念，使用hashmap存储左括号以及对应的优先级
+     *            每次放入左括号的时候，需要确定栈顶括号的优先级大于自己
+     *  1、recursion tree 最多有多少层？            2l + 2m + 2n
+     *  2、recursion tree 每个node最多有几种case？  最多有6种case
+     *
+     * time = O(6^(2l + 2m + 2n))
+     * space = O(2l + 2m + 2n) = O(l + m + n)
+     * heap: stack (2l + 2m + 2n)
+     *       stringBuilder (2l + 2m + 2n)
+     *       PS、remain O(1)
+     * call stack: O(2l + 2m + 2n)
      */
     public List<String> validParenthesesIII(int l, int m, int n) {
         // Write your solution here

@@ -12,9 +12,19 @@ public class AllSubsetsOfSizeK {
         System.out.println(new AllSubsetsOfSizeK().subSetsOfSizeK(set, 2));
     }
 
-    // time = O(n^2)
-    // worst case k的长度与set.length()一样
-    // space = O(n) 递归n层
+    /**
+     * input: string (需要求subset的字符串)
+     *        int (限制每个subset结果的长度)
+     * output: List<String> (返回符合要求的subset集合)
+     * 假设：set != null && k >= 0
+     * 如果不符合假设，不存在符合要求的subset，返回空list
+     * high level: 使用DFS的subset方案解答
+     * mid level: 使用DFS的subset方案解答，加一个base case，当subset结果size==k的时候，提前结束
+     *  1、recursion tree 最多有多少层？            假设set的长度为n，那么最多有n层
+     *  2、recursion tree 每个node最多有几种case？  有选择和不选两种case
+     * time = O(2^n * k)
+     * space = O(n) heap: stringBuilder && call stack
+     */
     public List<String> subSetsOfSizeK(String set, int k) {
         // Write your solution here
         List<String> res = new ArrayList<>();
@@ -27,8 +37,8 @@ public class AllSubsetsOfSizeK {
     }
 
     private void subSetsOfSizeK(char[] input, int level, StringBuilder cur, List<String> res, int k) {
-        // 由于每次决策都不一样，所以每次递归调用的时候cur的值也不一样
-        // 所以只需要将符合题意的，即长度为k的结果筛选出来就可以了
+        // 这个base case要写在前面，因为有可能k == input.length()
+        // 在这种情况下，写在后面的话就不会加入结果集了
         if (cur.length() == k) {
             res.add(cur.toString());
             return;

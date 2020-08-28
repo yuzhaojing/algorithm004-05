@@ -13,17 +13,20 @@ public class AllPermutationsOfSubsets {
     }
 
     /**
+     * input: string
+     * output: List<String> (返回input的subset集合的permutation)
      * 假设：set != null
-     * 如果set == null，那么返回空list，因为null是没有subSet的
-     * high level：使用DFS的permutation方案进行求解
-     * mid level：
-     *  1、使用swap-swap的方式求set的permutation问题
-     *  2、在每次递归调用时，将当前输入的字符串的不变动部分加入结果集
-     *     这部分就是这个字符串在长度为level的情况下的全部permutation
-     * time = O(n! + n^2)
-     * 一共n!个node，每个node花费O(1) time = O(n!)
-     * 一共n层，每层需要O(n)的时间copy元素进入结果集 time = O(n^2)
-     * space = O(n) call stack
+     * 如果不符合假设，则没有subset，那么也就没有permutation，所以返回空list
+     *
+     * high level: 使用DFS的permutation方案解答
+     * mid level: 在使用之前的方案的时候，将每层的index之前的元素放入结果集，这个就是答案
+     *  1、recursion tree 最多有多少层？            如果input的长度为n，那么最多就有n层
+     *  2、recursion tree 每个node最多有几种case？  第一层有n种，第二层有n - 1种 。。。 最后一层1种
+     *
+     * time = O(n! * n)
+     * space = O(n)
+     * heap: cur list (n)
+     * call stack: O(n)
      */
     public List<String> allPermutationsOfSubsets(String set) {
         // Write your solution here

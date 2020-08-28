@@ -11,17 +11,21 @@ public class FactorCombinations {
     }
 
     /**
+     * input: int
+     * output: List<List<String>> (返回可以通过乘法构成target的公因数集合)
      * 假设：target > 1
-     * 如果target <= 1的话，target将不存在非自身和1的公因数，暂定返回空list
-     * high level: 使用DFS来进行解答
-     * mid level:
-     *  1、遍历0～target，找出公因数
-     *  2、对每个公因数进行遍历，枚举出小于target的所有可能性
-     *     每层分几个叉 target/最小公因数
-     *     一共分几层   公因数的个数
-     * time = O(m^n + target)
-     * m = target/最小公因数 n = 公因数的个数
-     * space = O(n)
+     * 如果不符合假设，则没有大于1的公因数，那么此题无解，返回空list
+     *
+     * high level: 使用DFS的99cent方案解答
+     * mid level: 在使用之前的方案之前，需要先求出构成的硬币
+     *  1、recursion tree 最多有多少层？            公因数的个数
+     *  2、recursion tree 每个node最多有几种case？  target / 大于1的最小公因数
+     *
+     * time = O(level^case * (case) + target / 2)
+     * space = O(level + case)
+     * heap: factor list (level)
+     *       cur list (case)
+     * call stack: O(level)
      */
     public List<List<Integer>> combinations(int target) {
         // Write your solution here

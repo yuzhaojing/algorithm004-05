@@ -13,24 +13,18 @@ public class AllSubSetII {
     }
 
     /**
-     * 总共有几层？每层存储了什么东西？
-     * 总共有n层 每层存储当前层选择的字符（选择字符或者不选择）
-     *
-     * 每层有几个可能（每个节点会有几个分支）
-     * 每层有2个可能，即两个分支
-     *
-     * Time = O(2^n * n)
-     * 分析思路:
-     * 最开始的数组排序需要nlogn的时间
-     *
-     * worst case 每一个字符都不一样，所以递归复杂度和subSet是一样的
-     * 输入的字符串有几个字符，就需要递归几次，所以深度为n
-     * 每层每个节点有两种可能，加上下一个字符或者不加，所以每层每个节点有2个子节点
-     * time = 2 + 2^2 + 2^3 + ... + 2^n = O(2^n) + O(nlogn) = O(2^n + nlogn) * O(n)
-     *
-     * Space = O(n)
-     * recursion tree 有n层，根据冯诺伊曼体系，递归n层的空间复杂度为O(n)
-     *
+     * 假设：set != null
+     * 如果不符合假设，那么对于null来说，是不存在subset的，返回空list
+     * input: string || char[] (需要求subset的元素集合)
+     * output: List<String> (返回subset的全部可能性)
+     * high level: 用DFS中的subset方案解答
+     * mid level: 使用subset的方案解答，不过需要将输入的string转成char array进行排序
+     * 然后对char array计算subset的时候，如果不选择某个元素，就将相同元素全部skip掉
+     * 1、递归树最多有多少层？ 假设input的string有n个字符，那么就有n层，每层决定一个字符。
+     * 2、每个node最多有几种case？每个node最多有两种case，选择或者不选择
+     * time = O(2^n * n + nlogn) = O(2^n * n)
+     * 递归树最后一层有2^n个node，每个node里面需要花费O(n)的时间遍历subset结果放入list中
+     * space = O(n) call stack
      *
      * 额外思考题：如果不使用排序怎么做？
      */

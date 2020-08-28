@@ -13,20 +13,20 @@ public class TwoSubsetsWithMinDifference {
     }
 
     /**
-     * 假设：array != null
-     * 如果不符合假设，那么array没有subset，也就无法计算最小差了
-     * 返回值暂定-1，正常的返回值会取绝对值
-     * high level: 使用DFS的subset方法进行解答
-     * mid level: 每层分几个叉 - 2个/ 共有几层 - n层
-     *  1、使用加元素不加元素的方法，计算subset
-     *  2、如果当前的subset集合的元素个数大于等于总数的一半，计算两个subset和的差
-     *     (totalSum - curSum) - curSum
-     *  3、如果当前subset集合的元素个数不到总数的一半，并且已经到底了，那么不做处理，直接返回
-     *     此时不符合题意，所以不需要计算
+     * input: array int[]
+     * output: int (返回将input array分成两半的subset中，差值最小的差)
+     * 假设：array != null && array.length > 1
+     * 如果不符合假设，则没有两个包含int的subset，那么也就无法求差，所以返回Integer.MIN_VALUE
+     *
+     * high level: 使用DFS的subset方案解答
+     * mid level: 在使用之前的方案的时候，加一个base case，当cur.size() >= n / 2的时候，计算差值并尝试更新全
+     *  1、recursion tree 最多有多少层？            如果array的长度为n，那么最多就有n层
+     *  2、recursion tree 每个node最多有几种case？  2种，选择或者不选择
+     *
      * time = O(2^n)
      * space = O(n)
-     * heap: subset集合 O(n)
-     * call stack: 递归n层 O(n)
+     * heap: cur list (n)
+     * call stack: O(n)
      */
     public int minDifference(int[] array) {
         // Write your solution here
