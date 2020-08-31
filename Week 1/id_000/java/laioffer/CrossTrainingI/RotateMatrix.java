@@ -38,13 +38,14 @@ public class RotateMatrix {
         }
 
         for (int i = 0; i < size - 1; i++) {
-            rotate(matrix, offset, offset + i, size);
+            rotate(matrix, offset, offset + i);
         }
 
         helper(matrix, offset + 1, size - 2);
     }
 
-    private void rotate(int[][] matrix, int row, int col, int size) {
+    private void rotate(int[][] matrix, int row, int col) {
+        int size = matrix.length;
         int temp = matrix[row][col];
         matrix[row][col] = matrix[size - 1 - col][row];
         matrix[size - 1 - col][row] = matrix[size - 1 - row][size - 1 - col];
