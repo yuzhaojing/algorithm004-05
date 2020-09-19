@@ -1,9 +1,14 @@
 package laioffer.DFSII;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class KeepDistanceForIdenticalElements {
 
     public static void main(String[] args) {
-        new KeepDistanceForIdenticalElements().keepDistance(2);
+//        new KeepDistanceForIdenticalElements().keepDistance(2);
+        List<List<Integer>> list = new KeepDistanceForIdenticalElements().keepDistance1(3);
+        System.out.println(list);
     }
 
     /**
@@ -49,5 +54,38 @@ public class KeepDistanceForIdenticalElements {
             }
         }
         return false;
+    }
+
+    public List<List<Integer>> keepDistance1(int k) {
+        // Write your solution here.
+        if (k <= 0) {
+            return null;
+        }
+
+        List<List<Integer>> res = new ArrayList<>();
+
+        helper(new int[2 * k], k, res);
+        return res;
+    }
+
+    private void helper(int[] array, int k, List<List<Integer>> res) {
+        if (k == 0) {
+            List<Integer> tmp = new ArrayList<>();
+            for (int num : array) {
+                tmp.add(num);
+            }
+            res.add(tmp);
+            return;
+        }
+
+        for (int i = 0; i < array.length - k - 1; i++) {
+            if (array[i] == 0 && array[i + k + 1] == 0) {
+                array[i] = k;
+                array[i + k + 1] = k;
+                helper(array, k - 1, res);
+                array[i + k + 1] = 0;
+                array[i] = 0;
+            }
+        }
     }
 }

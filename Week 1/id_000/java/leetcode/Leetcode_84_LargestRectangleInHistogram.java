@@ -8,7 +8,7 @@ import java.util.Stack;
 public class Leetcode_84_LargestRectangleInHistogram {
 
     public static void main(String[] args) {
-        int[] heights = {6, 7, 5, 5, 2, 4, 5, 9, 3};
+        int[] heights = {2, 1, 3, 4, 5, 2, 6};
         System.out.println(method1(heights));
     }
 

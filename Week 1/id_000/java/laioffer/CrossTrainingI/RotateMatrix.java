@@ -3,9 +3,14 @@ package laioffer.CrossTrainingI;
 public class RotateMatrix {
 
     public static void main(String[] args) {
-        int[][] matrix = {{-85, 56, 37, 48}, {-25, -78, -29, 62}, {18, -60, -74, -84}, {90, 44, 5, 1}};
-        new RotateMatrix().rotate(matrix);
+        int[][] matrix = {{80, 28, 59, 98, 88, 21, 85}, {54, 6, 63, 65, 75, 85, 44}, {10, 64, 26, 54, 81, 37, 35}, {63, 83, 55, 8, 21, 44, 3}, {83, 94, 39, 70, 79, 99, 86}, {69, 47, 57, 10, 14, 75, 77}, {91, 43, 27, 69, 62, 96, 79}};
+        new RotateMatrix().rotateIterator(matrix);
     }
+
+    /**
+     * expected [[80, 28, 59, 98, 88, 21, 85], [54, 6, 63, 65, 75, 85, 44], [10, 64, 26, 54, 81, 37, 35], [63, 83, 55, 8, 21, 44, 3], [83, 94, 39, 70, 79, 99, 86], [69, 47, 57, 10, 14, 75, 77], [91, 43, 27, 69, 62, 96, 79]]
+     * but was: [[80, 28, 59, 98, 88, 21, 85], [54, 6, 63, 65, 75, 85, 44], [10, 64, 81, 21, 79, 37, 35], [63, 83, 54, 8, 70, 44, 3], [83, 94, 26, 55, 39, 99, 86], [69, 47, 57, 10, 14, 75, 77], [91, 43, 27, 69, 62, 96, 79]]
+     */
 
     /**
      * input: matrix int[][]
@@ -20,7 +25,7 @@ public class RotateMatrix {
      *     i + j = size - 1
      *  2、按旋转顺序，四个点的坐标依次为(i, j)、(j, size - 1 - i)、(size - 1 - i, size - 1 - j)、(size - 1 - j, i)
      *
-     * time = O(N^2)
+     * time = O(N)
      * space = O(N/2) = O(N)
      */
     public void rotate(int[][] matrix) {
@@ -42,6 +47,23 @@ public class RotateMatrix {
         }
 
         helper(matrix, offset + 1, size - 2);
+    }
+
+    public void rotateIterator(int[][] matrix) {
+        // Write your solution here
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return;
+        }
+
+        int size = matrix.length;
+
+        for (int i = 0; i < matrix.length / 2; i++) {
+
+            for (int j = 0; j < size - 1; j++) {
+                rotate(matrix, i, i + j);
+            }
+            size -= 2;
+        }
     }
 
     private void rotate(int[][] matrix, int row, int col) {

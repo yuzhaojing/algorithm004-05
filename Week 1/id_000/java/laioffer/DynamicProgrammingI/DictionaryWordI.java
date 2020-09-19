@@ -10,7 +10,6 @@ public class DictionaryWordI {
         System.out.println(new DictionaryWordI().canBreak("bcdbcdabc", array));
     }
 
-
     /**
      * 假设：input != null && dict != null
      * 如果不符合假设，那么要么无法切割，要么无法匹配，最后都不能找到解，所以返回false

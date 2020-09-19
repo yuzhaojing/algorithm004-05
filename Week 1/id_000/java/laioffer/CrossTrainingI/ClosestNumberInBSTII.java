@@ -25,7 +25,7 @@ public class ClosestNumberInBSTII {
      *  3、如果在某个node，deque中的数据已经有k个，并且不需要更新，那么返回这个int array
      *
      * time = O(n)
-     * space = O(k)
+     * space = O(height + k)
      */
     public int[] closestKValues(TreeNode root, double target, int k) {
         // Write your solution here
