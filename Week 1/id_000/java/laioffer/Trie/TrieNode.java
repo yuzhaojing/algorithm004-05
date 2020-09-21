@@ -3,7 +3,22 @@ package laioffer.Trie;
 import java.util.HashMap;
 import java.util.Map;
 
-// 字典树或者前缀树
+/**
+ * 字典树/前缀树是一颗k叉树，每层存储的是前缀字符
+ * 主要应用场景为：对字符串的查找，前缀匹配
+ *
+ * 假设给定n个string，平均每个string长度为m，比较以下几种数据结构的复杂度
+ * search: 找到指定string
+ * insert: 在指定为止插入string，例如"b"需要插入在"a"和"c"之间
+ * delete: 删除指定string
+ *
+ *                      search        insert        delete
+ * HashMap              O(m)          O(m)          O(m)         需要O(m)计算hashCode，worst case O(nm) 哈希冲突
+ * ArrayList            O(nm)         O(nm + n)     O(nm + n)    需要O(n)遍历元素，O(m)的时间比较元素，删除还需要O(n)的时间移动元素
+ * ArrayList(sorted)    O(mlogn)      O(mlogn + n)  O(mlogn + n) 需要O(logn)遍历元素，O(m)的时间比较元素，删除还需要O(n)的时间移动元素
+ * LinkedList           O(nm)         O(nm)         O(nm)        需要O(n)遍历元素，O(m)的时间比较元素
+ * Trie                 O(m)          O(m)          O(m)         需要O(m)找到对应的node
+ */
 public class TrieNode {
     private int value;
     private int count; // 记录children中还有几个word，在删除node的时候可以更加方便的删除无效的node
@@ -52,7 +67,8 @@ public class TrieNode {
     }
 
     public boolean insert(String word) {
-        // 必须保证Trie中现在没有这个word，否则count计算会出错
+        // 如果找到这个word，直接返回false。
+        // 这个判断是服务于count的，如果事先不知道word是否存在，无法在遍历的时候对count进行操作
         if (word == null || search(word)) {
             return false;
         }
@@ -84,10 +100,12 @@ public class TrieNode {
         TrieNode cur = this;
 
         for (int i = 0; i < word.length(); i++) {
+            // 由于这个word必然存在，所以next必然存在
             TrieNode next = cur.children.get(word.charAt(i));
             cur.count--;
 
-            // 如果被删除node不是根节点，连带之前的无效node一起删除
+            // 表示在cur这个node之下只有一个node，这个node就是需要删除的node
+            // 所以不需要再继续遍历寻找，直接删除这个node后的children就可以
             if (cur.count == 0) {
                 cur.children.remove(word.charAt(i));
             }
