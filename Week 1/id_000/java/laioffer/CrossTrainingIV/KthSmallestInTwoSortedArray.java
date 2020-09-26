@@ -5,6 +5,8 @@ public class KthSmallestInTwoSortedArray {
     public static void main(String[] args) {
         int[] a = {1, 4, 5, 5, 8, 12, 12, 12};
         int[] b = {2};
+
+        System.out.println(new KthSmallestInTwoSortedArray().kth(a, b, 9));
     }
 
     /**
@@ -49,6 +51,8 @@ public class KthSmallestInTwoSortedArray {
     }
 
     private int helper(int[] a, int aleft, int[] b, int bleft, int k) {
+        // 下面进行递归的时候，amid + 1和bmid + 1有可能会越界
+        // 此时表示对应数组的元素已经被取完，直接返回另一个数组的元素即可
         if (aleft >= a.length) {
             return b[bleft + k - 1];
         }

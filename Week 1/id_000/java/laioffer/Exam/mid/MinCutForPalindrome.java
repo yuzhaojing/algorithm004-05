@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class MinCutForPalindrome {
 
     public static void main(String[] args) {
-        System.out.println(new MinCutForPalindrome().minCutForPalindrome("ababbbabbababa"));
+//        System.out.println(new MinCutForPalindrome().minCutForPalindrome("ababbbabbababa"));
+        System.out.println(new MinCutForPalindrome().minCutForPalindrome("aaaaaabbabb"));
     }
 
     /**

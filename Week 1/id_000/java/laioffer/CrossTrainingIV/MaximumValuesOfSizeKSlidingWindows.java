@@ -8,7 +8,7 @@ import java.util.List;
 public class MaximumValuesOfSizeKSlidingWindows {
 
     public static void main(String[] args) {
-
+        System.out.println(new MaximumValuesOfSizeKSlidingWindows().maxWindows(new int[] {1, 2, 3, 2, 4, 2, 1}, 3));
     }
 
     /**
