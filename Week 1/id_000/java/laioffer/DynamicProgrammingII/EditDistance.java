@@ -3,7 +3,7 @@ package laioffer.DynamicProgrammingII;
 public class EditDistance {
 
     public static void main(String[] args) {
-        System.out.println(new EditDistance().editDistanceDp("sigh", "asith"));
+        System.out.println(new EditDistance().editDistanceDp("ab", "dbbabc"));
     }
 
     /**

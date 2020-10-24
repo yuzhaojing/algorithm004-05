@@ -6,28 +6,22 @@ public class MergeBinaryTree {
         TreeNode left = ArrayToTree.fromArrayToTree(new String[]{"1", "1", "4", "2"});
         TreeNode right = ArrayToTree.fromArrayToTree(new String[]{"2", "2", "2", "#", "4", "#", "3"});
 
-        TreeNode root = mergeBinaryTree(left, right);
+        TreeNode root = mergeBinaryTrees(left, right);
     }
 
-    private static TreeNode mergeBinaryTree(TreeNode left, TreeNode right) {
-        // base case
-        TreeNode cur = new TreeNode(0);
-        if (left == null && right == null) {
+    public static TreeNode mergeBinaryTrees(TreeNode root1, TreeNode root2) {
+        // Write your solution here
+        if (root1 == null && root2 == null) {
             return null;
-        } else if (left == null) {
-            cur.key = right.key;
-            cur.left = mergeBinaryTree(null, right.left);
-            cur.right = mergeBinaryTree(null, right.right);
-        } else if (right == null) {
-            cur.key = left.key;
-            cur.left = mergeBinaryTree(left.left, null);
-            cur.right = mergeBinaryTree(left.right, null);
-        } else {
-            cur.key = left.key + right.key;
-            cur.left = mergeBinaryTree(left.left, right.left);
-            cur.right = mergeBinaryTree(left.right, right.right);
+        } else if (root1 == null) {
+            return root2;
+        } else if (root2 == null) {
+            return root1;
         }
 
-        return cur;
+        root1.key += root2.key;
+        root1.left = mergeBinaryTrees(root1.left, root2.left);
+        root1.right = mergeBinaryTrees(root1.right, root2.right);
+        return root1;
     }
 }

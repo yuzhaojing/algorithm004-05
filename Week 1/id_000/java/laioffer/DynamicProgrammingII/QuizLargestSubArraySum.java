@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class QuizLargestSubArraySum {
 
     public static void main(String[] args) {
-        int[] array = {2, 3, 4, 0};
+        int[] array = {4,2,-3,-2,3,-1,-2,6};
         System.out.println(Arrays.toString(new QuizLargestSubArraySum().largestSum(array)));
     }
 

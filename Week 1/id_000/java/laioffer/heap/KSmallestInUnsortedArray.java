@@ -5,6 +5,7 @@ import java.util.*;
 public class KSmallestInUnsortedArray {
 
     public static void main(String[] args) {
+        new Random().nextInt(3);
         int[] nums = {2, 4, 8, 1, 5, 7, 9, 3};
         System.out.println(Arrays.toString(new KSmallestInUnsortedArray().solution3(nums, 4)));
     }

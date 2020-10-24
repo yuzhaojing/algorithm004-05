@@ -11,10 +11,18 @@ public class TopKFrequentWords {
     }
 
     /**
-     * time = O(n + k + (n-k)logk)
+     * 1、遍历combo，使用hashmap统计每个string和出现的次数
+     * 2、遍历hashmap，将数据放在小顶堆中，如果比堆顶的大，就更新
      *
-     * space = O(n + k)
+     * combo长度为n，一共有m个不同的string
+     * time = O(n + k + (m - k)logk)
+     * 遍历combo，统计: O(n)
+     * 将前k个string通过heapify构建成小顶堆: O(k)
+     * 将后面的所有string和堆顶元素比较并更新: O((m - k)logk)
      *
+     * space = O(m + k)
+     * hashMap: O(m)
+     * minHeap: O(k)
      */
     public String[] topKFrequent(String[] combo, int k) {
         // Write your solution here

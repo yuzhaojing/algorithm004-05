@@ -3,15 +3,18 @@ package laioffer.tree;
 public class DeleteInBST {
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(10);
-        root.left = new TreeNode(5);
-        root.left.left = new TreeNode(2);
-        root.left.right = new TreeNode(7);
-        root.right = new TreeNode(15);
-        root.right.left = new TreeNode(11);
-        root.right.right = new TreeNode(20);
+//        TreeNode root = new TreeNode(10);
+//        root.left = new TreeNode(5);
+//        root.left.left = new TreeNode(2);
+//        root.left.right = new TreeNode(7);
+//        root.right = new TreeNode(15);
+//        root.right.left = new TreeNode(11);
+//        root.right.right = new TreeNode(20);
 
-        root = new DeleteInBST().deleteTree(root, 11);
+        TreeNode root = ArrayToTree.fromArrayToTree(new String[] {"6","3","12","2","4","8","16","1","#","#","5","7","9","14","18"});
+
+        root = new DeleteInBST().deleteTree(root, 6);
+        System.out.println(root.key);
     }
 
     /**
@@ -32,13 +35,66 @@ public class DeleteInBST {
      * 空间复杂度O(height) ？如果改为迭代是否是O(1)
      * worst case为被删除节点在树的最底层
      */
+//    public TreeNode deleteTree(TreeNode root, int key) {
+//        // Write your solution here
+//        if (root == null) {
+//            return null;
+//        }
+//
+//        // 当前节点不是要删除的节点，递归寻找要删除的节点
+//        if (root.key < key) {
+//            root.right = deleteTree(root.right, key);
+//            return root;
+//        } else if (root.key > key) {
+//            root.left = deleteTree(root.left, key);
+//            return root;
+//        }
+//
+//        // 当前节点是要删除的节点
+//        // 如果左子树为null，返回右子树
+//        // 如果右子树为null，返回左子树
+//        if (root.left == null) {
+//            return root.right;
+//        } else if (root.right == null) {
+//            return root.left;
+//        }
+//
+//        // 左右子树都不为null，查找右子树中最小值
+//        // 如果右子树没有左子树，则右子树的根节点为最小值，将左子树挂在右子树的左节点，并返回右子树
+//        if (root.right.left == null) {
+//            root.right.left = root.left;
+//            return root.right;
+//        }
+//
+//        // 删除右子树中最小的node，并将其接到root的位置上
+//        TreeNode node = deleteSmallest(root.right);
+//        node.left = root.left;
+//        node.right = root.right;
+//        return node;
+//    }
+//
+//    private TreeNode deleteSmallest(TreeNode root) {
+//        if (root == null) {
+//            return null;
+//        }
+//
+//        TreeNode prev = null;
+//        while (root.left != null) {
+//            prev = root;
+//            root = root.left;
+//        }
+//        prev.left = root.right;
+//        root.right = null;
+//        return root;
+//    }
+
+
     public TreeNode deleteTree(TreeNode root, int key) {
         // Write your solution here
         if (root == null) {
             return null;
         }
 
-        // 当前节点不是要删除的节点，递归寻找要删除的节点
         if (root.key < key) {
             root.right = deleteTree(root.right, key);
             return root;
@@ -47,43 +103,33 @@ public class DeleteInBST {
             return root;
         }
 
-        // 当前节点是要删除的节点
-        // 如果左子树为null，返回右子树
-        // 如果右子树为null，返回左子树
         if (root.left == null) {
             return root.right;
         } else if (root.right == null) {
             return root.left;
         }
 
-        // 左右子树都不为null，查找右子树中最小值
-        // 如果右子树没有左子树，则右子树的根节点为最小值，将左子树挂在右子树的左节点，并返回右子树
         if (root.right.left == null) {
             root.right.left = root.left;
             return root.right;
         }
 
-        // 删除右子树中最小的node，并将其接到root的位置上
-        TreeNode node = deleteSmallest(root.right);
-        node.left = root.left;
-        node.right = root.right;
-        return node;
+        TreeNode newRoot = findNode(root.right);
+        newRoot.left = root.left;
+        newRoot.right = root.right;
+
+        return newRoot;
     }
 
-    private TreeNode deleteSmallest(TreeNode root) {
-        if (root == null) {
-            return null;
-        }
-
+    private TreeNode findNode(TreeNode root) {
         TreeNode prev = null;
         while (root.left != null) {
             prev = root;
             root = root.left;
         }
-        prev.left = root.right;
-        root.right = null;
+
+        prev.right = root.right;
         return root;
     }
-
 
 }

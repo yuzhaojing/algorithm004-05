@@ -38,10 +38,10 @@ public class MergeSort {
      *
      * total: Time = O(nlogn + nlogn) = O(nlogn)
      *
-     * 空间复杂度O(n)
+     * 空间复杂度O(logn)
      * 分析思路:
      * 分治阶段: 每层仅存储left，mid，right三个变量，空间复杂度为O(1)，递归树有logn层 O(logn)
-     * 合并阶段: 最优解为共用一个临时数组，O(n)
+     * 合并阶段: 只需要额外存储一个dummyNode，空间复杂度为O(1)，递归树有logn层 O(logn)
      * total: Space = O(n + logn) = O(n)
      */
     public int[] mergeSort(int[] array) {

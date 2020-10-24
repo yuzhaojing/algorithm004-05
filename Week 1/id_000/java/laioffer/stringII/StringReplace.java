@@ -7,9 +7,13 @@ import java.util.Queue;
 public class StringReplace {
 
     public static void main(String[] args) {
-        System.out.println(new StringReplace().replace1(
-                "mozambiquemayotterussiayemeniranyemenyemenyemenguatemalayemen",
-                "yemen","nauruu"));
+//        System.out.println(new StringReplace().replace(
+//                "mozambiquemayotterussiayemeniranyemenyemenyemenguatemalayemen",
+//                "yemen","nauruu"));
+
+        System.out.println(new StringReplace().replace2(
+                "tywjtltyvtyegcboycmqtyq",
+                "ty","c"));
     }
 
     /**
@@ -186,5 +190,41 @@ public class StringReplace {
 
             return new String(res);
         }
+    }
+
+    public String replace2(String input, String source, String target) {
+        // Write your solution here
+        if (input == null || input.length() == 0 || source == null || target == null) {
+            return input;
+        }
+
+        Queue<Integer> starts = new ArrayDeque<>();
+
+        for (int i = 0; i <= input.length() - source.length(); i++) {
+            for (int j = 0; j < source.length(); j++) {
+                if (input.charAt(i + j) != source.charAt(j)) {
+                    break;
+                }
+
+                if (j == source.length() - 1) {
+                    starts.offer(i);
+                }
+            }
+        }
+
+        StringBuilder sb = new StringBuilder();
+        int fast =  0;
+
+        while (fast < input.length()) {
+            if (starts.isEmpty() || fast != starts.peek()) {
+                sb.append(input.charAt(fast++));
+            } else {
+                sb.append(target);
+                starts.poll();
+                fast += source.length();
+            }
+        }
+
+        return sb.toString();
     }
 }

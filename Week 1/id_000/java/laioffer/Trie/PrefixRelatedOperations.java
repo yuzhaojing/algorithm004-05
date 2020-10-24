@@ -39,9 +39,9 @@ public class PrefixRelatedOperations {
      *  2、对找到的node进行DFS
      *
      * 假设: prefix.length() = n  Trie的最大分叉个数 = m  Trie的最大深度 = k
-     * time = O(n + m^k)
+     * time = O(n + m^k * k)
      * 找到node  = O(n)
-     * 进行DFS worst case: 一共k层，每层有m个叉
+     * 进行DFS worst case: 一共k层，每层有m个叉，最后一层需要O(k)的时间放入res
      *
      * space = k + k = O(k)
      * StringBuilder存储 O(k) (最多需要存Trie最大深度的数据)
@@ -98,6 +98,14 @@ public class PrefixRelatedOperations {
      *  3、recursion rule:
      *     if (regex.charAt(index) == '?') dfs(all children)
      *     else                            dfs(match children)
+     *
+     * regex的长度为n，root中一共有m个char
+     * time = O(m^n * n)
+     * DFS: n levels, m case
+     *
+     * space = n + n = O(n)
+     * DFS: O(n)
+     * StringBuilder O(n)
      */
     public List<String> findAllMatchWords(TrieNode root, String regex) {
         List<String> res = new ArrayList<>();
@@ -128,7 +136,7 @@ public class PrefixRelatedOperations {
             TrieNode next = root.getChildren().get(c);
             if (next != null) {
                 cur.append(c);
-                helper(root.getChildren().get(c), index + 1, regex, cur, res);
+                helper(next, index + 1, regex, cur, res);
                 cur.deleteCharAt(cur.length() - 1);
             }
         }

@@ -3,7 +3,46 @@ package laioffer.DynamicProgrammingIII;
 public class LargestSubMatrixSum {
 
     public static void main(String[] args) {
+        int[][] matrix = {{2, -1, 2, 1, -3}, {0, -2, -1, 2, 1}, {3, 2, 1, -3, -2}};
+        System.out.println(new LargestSubMatrixSum().largest(matrix));
+        System.out.println(new LargestSubMatrixSum().largest2(matrix));
+    }
 
+    public int largest2(int[][] matrix) {
+        // Write your solution here
+        if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            return 0;
+        }
+
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        int res = Integer.MIN_VALUE;
+
+        for (int i = 0; i < rows; i++) {
+            int[] cur = new int[cols];
+            for (int j = i; j < rows; j++) {
+                for (int k = 0; k < cols; k++) {
+                    cur[k] += matrix[j][k];
+                }
+
+                res = Math.max(res, getLarestSum(cur));
+            }
+        }
+
+        return res;
+    }
+
+    private int getLarestSum(int[] array) {
+        int prev = array[0];
+        int maxSum = prev;
+
+        for (int i = 1; i < array.length; i++) {
+            prev = prev < 0 ? array[0] : prev + array[0];
+            maxSum = Math.max(maxSum, prev);
+        }
+
+        return maxSum;
     }
 
     /**
@@ -107,7 +146,7 @@ public class LargestSubMatrixSum {
             for (int j = 0; j < cols; j++) {
                 for (int k = i; k < rows; k++) {
                     for (int t = j; t < cols; t++) {
-                        int sum = 0;
+                        int sum;
                         if (i == 0 && j == 0) {
                             sum = prefixSum2D[k][t];
                         } else if (i == 0) {

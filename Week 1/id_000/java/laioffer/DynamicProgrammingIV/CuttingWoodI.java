@@ -3,7 +3,7 @@ package laioffer.DynamicProgrammingIV;
 public class CuttingWoodI {
 
     public static void main(String[] args) {
-        System.out.println(new CuttingWoodI().minCost(new int[]{3, 16, 19, 28, 37, 44, 47, 48, 51, 52, 62}, 67));
+        System.out.println(new CuttingWoodI().minCost(new int[]{2, 4, 7}, 10));
     }
 
     // input:  int[] cuts
@@ -23,31 +23,31 @@ public class CuttingWoodI {
             return 0;
         }
 
+        // cost[i]表示i到起点的距离
+        // cost[i] - cost[j] = i ～ j的距离，也就是i和j中间切一刀的cost
         int[] cost = new int[cuts.length + 2];
-        int[][] M = new int[cost.length][cost.length];
-
+        cost[0] = 0;
+        cost[cost.length - 1] = length;
         for (int i = 0; i < cuts.length; i++) {
             cost[i + 1] = cuts[i];
         }
 
-        cost[cost.length - 1] = length;
+        // M[i][j]表示从cuts[i]到cuts[j]中间的最小cost
+        int[][] M = new int[cost.length][cost.length];
 
         // 先将M[0][1]和M[1][2]算出来，才能算M[0][2]
         // 先将M[0][1]、M[1][2]、M[2][3]算出来，才能算M[0][3]、M[1][3]
-        for (int i = 1; i < cost.length; i++) {
-            for (int j = i - 1; j >= 0; j--) {
-                if (j == i - 1) {
-                    // base case
-                    M[j][i] = 0;
+        for (int j = 1; j < cost.length; j++) {
+            for (int i = j - 1; i >= 0; i--) {
+                if (i + 1 == j) {
+                    M[i][j] = 0;
                 } else {
-                    M[j][i] = Integer.MAX_VALUE;
-                    // 枚举木头的所有切割方式，计算出消耗最小的
-                    for (int k = j + 1; k <= i - 1; k++) {
-                        M[j][i] = Math.min(M[j][i], M[j][k] + M[k][i]);
+                    M[i][j] = Integer.MAX_VALUE;
+                    for (int k = i + 1; k < j; k++) {
+                        M[i][j] = Math.min(M[i][j], M[i][k] + M[k][j]);
                     }
 
-                    // 加上第一刀的消耗
-                    M[j][i] += (cost[i] - cost[j]);
+                    M[i][j] += (cost[j] - cost[i]);
                 }
             }
         }

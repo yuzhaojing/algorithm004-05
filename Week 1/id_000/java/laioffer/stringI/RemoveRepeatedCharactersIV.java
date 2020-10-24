@@ -3,7 +3,7 @@ package laioffer.stringI;
 public class RemoveRepeatedCharactersIV {
 
     public static void main(String[] args) {
-        System.out.println(new RemoveRepeatedCharactersIV().deDup("aababab"));
+        System.out.println(new RemoveRepeatedCharactersIV().deDup1("abbbaaccz"));
     }
 
     /**
@@ -44,5 +44,30 @@ public class RemoveRepeatedCharactersIV {
         }
 
         return new String(array, 0, slow + 1);
+    }
+
+    public String deDup1(String input) {
+        // Write your solution here
+        if (input == null || input.length() == 0) {
+            return input;
+        }
+
+        int slow = 0;
+        int fast = 0;
+
+        char[] array = input.toCharArray();
+
+        while (fast < array.length) {
+            if (slow == 0 || array[slow - 1] != array[fast]) {
+                array[slow++] = array[fast++];
+            } else {
+                while (fast < array.length && array[slow - 1] == array[fast]) {
+                    fast++;
+                }
+                slow--;
+            }
+        }
+
+        return new String(array, 0, slow);
     }
 }

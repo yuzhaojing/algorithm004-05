@@ -71,7 +71,9 @@ public class KthSmallestInTwoSortedArray {
         int aval = amid >= a.length ? Integer.MAX_VALUE : a[amid];
         int bval = bmid >= b.length ? Integer.MAX_VALUE : b[bmid];
 
-        if (aval < bval) {
+        if (aval == bval) {
+            return aval;
+        } else if (aval < bval) {
             return helper(a, amid + 1, b, bleft, k - k / 2);
         } else {
             return helper(a, aleft, b, bmid + 1, k - k / 2);
